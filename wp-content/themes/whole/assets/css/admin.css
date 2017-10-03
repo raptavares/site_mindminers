@@ -1,0 +1,110 @@
+.wpb-elements-list #cms_button .vc_element-icon,
+.wpb-elements-list #cms_googlemap .vc_element-icon,
+.wpb-elements-list #cms_heading .vc_element-icon,
+.wpb-elements-list #cms_videopopup .vc_element-icon,
+.wpb-elements-list #cms_list .vc_element-icon,
+.wpb-elements-list #cms_cta .vc_element-icon,
+.wpb-elements-list #cms_pricing .vc_element-icon,
+.wpb-elements-list #cms_timeline .vc_element-icon,
+.wpb-elements-list #cms_process .vc_element-icon,
+.wpb-elements-list #cms_countdown .vc_element-icon,
+.wpb-elements-list #cms_dropcap .vc_element-icon,
+.wpb-elements-list #cms_restaurantmenu .vc_element-icon,
+.wpb-elements-list #cms_typingout .vc_element-icon,
+.wpb-elements-list #cms_alerts .vc_element-icon,
+.wpb-elements-list #cms_carousel .vc_element-icon,
+.wpb-elements-list #cms_fancybox_single .vc_element-icon,
+.wpb-elements-list #cms_counter_single .vc_element-icon,
+.wpb-elements-list #cms_progressbar .vc_element-icon,
+.wpb-elements-list #cms_grid .vc_element-icon {
+    background-image: none;
+    background-color: #2b4b80;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -mz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.wpb-elements-list #cms_button .vc_element-icon:before,
+.wpb-elements-list #cms_googlemap .vc_element-icon:before,
+.wpb-elements-list #cms_heading .vc_element-icon:before,
+.wpb-elements-list #cms_videopopup .vc_element-icon:before,
+.wpb-elements-list #cms_list .vc_element-icon:before,
+.wpb-elements-list #cms_cta .vc_element-icon:before,
+.wpb-elements-list #cms_pricing .vc_element-icon:before,
+.wpb-elements-list #cms_timeline .vc_element-icon:before,
+.wpb-elements-list #cms_process .vc_element-icon:before,
+.wpb-elements-list #cms_countdown .vc_element-icon:before,
+.wpb-elements-list #cms_dropcap .vc_element-icon:before,
+.wpb-elements-list #cms_restaurantmenu .vc_element-icon:before,
+.wpb-elements-list #cms_typingout .vc_element-icon:before,
+.wpb-elements-list #cms_alerts .vc_element-icon:before,
+.wpb-elements-list #cms_carousel .vc_element-icon:before,
+.wpb-elements-list #cms_fancybox_single .vc_element-icon:before,
+.wpb-elements-list #cms_counter_single .vc_element-icon:before,
+.wpb-elements-list #cms_progressbar .vc_element-icon:before,
+.wpb-elements-list #cms_grid .vc_element-icon:before {
+    font-family: dashicons;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+}
+.wpb-elements-list #cms_alerts .vc_element-icon:before {
+    content: "\f242";
+}
+.wpb-elements-list #cms_button .vc_element-icon:before {
+    content: "\f138";
+}
+.wpb-elements-list #cms_googlemap .vc_element-icon:before {
+    content: "\f230";
+}
+.wpb-elements-list #cms_heading .vc_element-icon:before {
+    content: "\f227";
+}
+.wpb-elements-list #cms_grid .vc_element-icon:before {
+    content: "\f180";
+}
+.wpb-elements-list #cms_progressbar .vc_element-icon:before {
+    content: "\f108";
+}
+.wpb-elements-list #cms_counter_single .vc_element-icon:before {
+    content: "\f185";
+}
+.wpb-elements-list #cms_fancybox_single .vc_element-icon:before {
+    content: "\f313";   
+}
+.wpb-elements-list #cms_videopopup .vc_element-icon:before {
+    content: "\f236";
+}
+.wpb-elements-list #cms_list .vc_element-icon:before {
+    content: "\f203";
+}
+.wpb-elements-list #cms_cta .vc_element-icon:before {
+    content: "\f160";
+}
+.wpb-elements-list #cms_pricing .vc_element-icon:before {
+    content: "\f145";
+}
+.wpb-elements-list #cms_timeline .vc_element-icon:before {
+    content: "\f470";
+}
+.wpb-elements-list #cms_process .vc_element-icon:before {
+    content: "\f463";
+}
+.wpb-elements-list #cms_countdown .vc_element-icon:before {
+    content: "\f469";
+}
+.wpb-elements-list #cms_dropcap .vc_element-icon:before {
+    content: "\f348";
+}
+.wpb-elements-list #cms_restaurantmenu .vc_element-icon:before {
+    content: "\f175";
+}
+.wpb-elements-list #cms_typingout .vc_element-icon:before {
+    content: "\f217";
+}
+.wpb-elements-list #cms_carousel .vc_element-icon:before {
+    content: "\f181";
+}

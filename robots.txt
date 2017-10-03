@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+Disallow: /team/?*
+Disallow: /testimonial/?*
+Disallow: /team_categories/?*
+Disallow: /home/ic_consumidores/
+Disallow: /clientes/foto_martim_low/
+
+Sitemap: https://mindminers.com/sitemap_index.xml

@@ -1,0 +1,207 @@
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+	# Ban Hosts - Security > Settings > Banned Users
+	SetEnvIF REMOTE_ADDR "^193\.200\.241\.143$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^193\.200\.241\.143$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^193\.200\.241\.143$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^69\.197\.177\.50$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^69\.197\.177\.50$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^69\.197\.177\.50$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^5\.9\.144\.234$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^5\.9\.144\.234$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^5\.9\.144\.234$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^88\.198\.0\.163$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^88\.198\.0\.163$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^88\.198\.0\.163$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^94\.154\.239\.69$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^94\.154\.239\.69$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^94\.154\.239\.69$" DenyAccess
+
+	<IfModule mod_authz_core.c>
+		<RequireAll>
+			Require all granted
+			Require not env DenyAccess
+			Require not ip 193.200.241.143
+			Require not ip 69.197.177.50
+			Require not ip 5.9.144.234
+			Require not ip 88.198.0.163
+			Require not ip 94.154.239.69
+		</RequireAll>
+	</IfModule>
+	<IfModule !mod_authz_core.c>
+		Order allow,deny
+		Allow from all
+		Deny from env=DenyAccess
+		Deny from 193.200.241.143
+		Deny from 69.197.177.50
+		Deny from 5.9.144.234
+		Deny from 88.198.0.163
+		Deny from 94.154.239.69
+	</IfModule>
+
+	# Disable XML-RPC - Security > Settings > WordPress Tweaks > XML-RPC
+	<files xmlrpc.php>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+Redirect 301 /7-caracteristicas-de-uma-marca-de-sucesso/ https://mindminers.com/marketing/7-caracteristicas-de-uma-marca-de-sucesso/
+Redirect 301 /7-caracteristicas-de-uma-marca-de-sucesso https://mindminers.com/marketing/7-caracteristicas-de-uma-marca-de-sucesso/
+Redirect 301 /100-dias-de-joao-doria/ https://mindminers.com/pesquisas/100-dias-de-joao-doria/
+Redirect 301 /100-dias-de-joao-doria https://mindminers.com/pesquisas/100-dias-de-joao-doria/
+Redirect 301 /4-taticas-para-atrair-novos-clientes/ https://mindminers.com/vendas/4-taticas-para-atrair-novos-clientes/
+Redirect 301 /4-taticas-para-atrair-novos-clientes https://mindminers.com/vendas/4-taticas-para-atrair-novos-clientes/
+Redirect 301 /5-dicas-para-precificar-servicos/ https://mindminers.com/vendas/5-dicas-para-precificar-servicos/
+Redirect 301 /5-dicas-para-precificar-servicos https://mindminers.com/vendas/5-dicas-para-precificar-servicos/
+Redirect 301 /5-indicadores-que-sua-empresa-precisa-acompanhar/ https://mindminers.com/marketing/5-indicadores-que-sua-empresa-precisa-acompanhar/
+Redirect 301 /5-indicadores-que-sua-empresa-precisa-acompanhar https://mindminers.com/marketing/5-indicadores-que-sua-empresa-precisa-acompanhar/
+Redirect 301 /5-insights-sobre-consumo-de-video/ https://mindminers.com/saiu-na-midia/5-insights-sobre-consumo-de-video/
+Redirect 301 /5-insights-sobre-consumo-de-video https://mindminers.com/saiu-na-midia/5-insights-sobre-consumo-de-video/
+Redirect 301 /7-dicas-para-criar-o-questionario-perfeito/ https://mindminers.com/pesquisas/7-dicas-para-criar-o-questionario-perfeito/
+Redirect 301 /7-dicas-para-criar-o-questionario-perfeito https://mindminers.com/pesquisas/7-dicas-para-criar-o-questionario-perfeito/
+Redirect 301 /7-erros-em-campanhas-que-devem-ser-evitados/ https://mindminers.com/marketing/7-erros-em-campanhas-que-devem-ser-evitados/
+Redirect 301 /7-erros-em-campanhas-que-devem-ser-evitados https://mindminers.com/marketing/7-erros-em-campanhas-que-devem-ser-evitados/
+Redirect 301 /8-estrategias-de-email-marketing-para-melhorar-as-suas-vendas/ https://mindminers.com/marketing/8-estrategias-de-email-marketing-para-melhorar-as-suas-vendas/
+Redirect 301 /8-estrategias-de-email-marketing-para-melhorar-as-suas-vendas https://mindminers.com/marketing/8-estrategias-de-email-marketing-para-melhorar-as-suas-vendas/
+Redirect 301 /livros-de-pesquisa-de-mercado/ https://mindminers.com/pesquisas/livros-de-pesquisa-de-mercado/
+Redirect 301 /livros-de-pesquisa-de-mercado https://mindminers.com/pesquisas/livros-de-pesquisa-de-mercado/
+Redirect 301 /fatores-que-influenciam-comportamento-do-consumidor/ https://mindminers.com/consumo/fatores-que-influenciam-comportamento-do-consumidor/
+Redirect 301 /fatores-que-influenciam-comportamento-do-consumidor https://mindminers.com/consumo/fatores-que-influenciam-comportamento-do-consumidor/
+Redirect 301 /importancia-da-retencao-de-clientes-para-o-seu-negocio/ https://mindminers.com/marketing/importancia-da-retencao-de-clientes-para-o-seu-negocio/
+Redirect 301 /importancia-da-retencao-de-clientes-para-o-seu-negocio https://mindminers.com/marketing/importancia-da-retencao-de-clientes-para-o-seu-negocio/
+Redirect 301 /a-importancia-de-validar-uma-ideia-antes-de-empreender/ https://mindminers.com/empreendedorismo/a-importancia-de-validar-uma-ideia-antes-de-empreender/
+Redirect 301 /a-importancia-de-validar-uma-ideia-antes-de-empreender https://mindminers.com/empreendedorismo/a-importancia-de-validar-uma-ideia-antes-de-empreender/
+Redirect 301 /comerciais-de-cerveja-o-que-esta-mudando/ https://mindminers.com/consumo/comerciais-de-cerveja-o-que-esta-mudando/
+Redirect 301 /comerciais-de-cerveja-o-que-esta-mudando https://mindminers.com/consumo/comerciais-de-cerveja-o-que-esta-mudando/
+Redirect 301 /qual-relacao-entre-marketing-pesquisa-de-marketing/ https://mindminers.com/pesquisas/qual-relacao-entre-marketing-pesquisa-de-marketing/
+Redirect 301 /qual-relacao-entre-marketing-pesquisa-de-marketing https://mindminers.com/pesquisas/qual-relacao-entre-marketing-pesquisa-de-marketing/
+Redirect 301 /big-data-qual-sua-importancia-para-o-marketing/ https://mindminers.com/marketing/big-data-qual-sua-importancia-para-o-marketing/
+Redirect 301 /big-data-qual-sua-importancia-para-o-marketing https://mindminers.com/marketing/big-data-qual-sua-importancia-para-o-marketing/
+Redirect 301 /clubes-buscam-novas-alternativas-para-as-transmissoes-dos-jogos-de-futebol/ https://mindminers.com/consumo/clubes-buscam-novas-alternativas-para-as-transmissoes-dos-jogos-de-futebol/
+Redirect 301 /clubes-buscam-novas-alternativas-para-as-transmissoes-dos-jogos-de-futebol https://mindminers.com/consumo/clubes-buscam-novas-alternativas-para-as-transmissoes-dos-jogos-de-futebol/
+Redirect 301 /como-a-tecnologia-esta-mudando-comportamento/ https://mindminers.com/consumo/como-a-tecnologia-esta-mudando-comportamento/
+Redirect 301 /como-a-tecnologia-esta-mudando-comportamento https://mindminers.com/consumo/como-a-tecnologia-esta-mudando-comportamento/
+Redirect 301 /como-atrair-e-engajar-o-consumidor-millennial/ https://mindminers.com/marketing/como-atrair-e-engajar-o-consumidor-millennial/
+Redirect 301 /como-atrair-e-engajar-o-consumidor-millennial https://mindminers.com/marketing/como-atrair-e-engajar-o-consumidor-millennial/
+Redirect 301 /como-calcular-o-roi-de-uma-campanha-de-marketing-digital/ https://mindminers.com/marketing/como-calcular-o-roi-de-uma-campanha-de-marketing-digital/
+Redirect 301 /como-calcular-o-roi-de-uma-campanha-de-marketing-digital https://mindminers.com/marketing/como-calcular-o-roi-de-uma-campanha-de-marketing-digital/
+Redirect 301 /como-coletar-respostas-na-plataforma-da-mindminers/ https://mindminers.com/pesquisas/como-coletar-respostas-na-plataforma-da-mindminers/
+Redirect 301 /como-coletar-respostas-na-plataforma-da-mindminers https://mindminers.com/pesquisas/como-coletar-respostas-na-plataforma-da-mindminers/
+Redirect 301 /como-criar-relatorios-e-apresentacoes-de-impacto/ https://mindminers.com/marketing/como-criar-relatorios-e-apresentacoes-de-impacto/
+Redirect 301 /como-criar-relatorios-e-apresentacoes-de-impacto https://mindminers.com/marketing/como-criar-relatorios-e-apresentacoes-de-impacto/
+Redirect 301 /como-criar-personas-a-partir-da-pesquisa/ https://mindminers.com/marketing/como-criar-personas-a-partir-da-pesquisa/
+Redirect 301 /como-criar-personas-a-partir-da-pesquisa https://mindminers.com/marketing/como-criar-personas-a-partir-da-pesquisa/
+Redirect 301 /como-integrar-marketing-digital-e-tradicional-para-melhorar-resultados/ https://mindminers.com/marketing/como-integrar-marketing-digital-e-tradicional-para-melhorar-resultados/
+Redirect 301 /como-integrar-marketing-digital-e-tradicional-para-melhorar-resultados https://mindminers.com/marketing/como-integrar-marketing-digital-e-tradicional-para-melhorar-resultados/
+Redirect 301 /como-ter-sucesso-em-campanhas-publicitarias-usando-pesquisa-de-marketing/ https://mindminers.com/marketing/como-ter-sucesso-em-campanhas-publicitarias-usando-pesquisa-de-marketing/
+Redirect 301 /como-ter-sucesso-em-campanhas-publicitarias-usando-pesquisa-de-marketing https://mindminers.com/marketing/como-ter-sucesso-em-campanhas-publicitarias-usando-pesquisa-de-marketing/
+Redirect 301 /confira-6-dicas-praticas-para-gestao-de-inovacao-nos-negocios/ https://mindminers.com/inovacao/confira-6-dicas-praticas-para-gestao-de-inovacao-nos-negocios/
+Redirect 301 /confira-6-dicas-praticas-para-gestao-de-inovacao-nos-negocios https://mindminers.com/inovacao/confira-6-dicas-praticas-para-gestao-de-inovacao-nos-negocios/
+Redirect 301 /conheca-a-nova-plataforma-de-pesquisa-automatizada/ https://mindminers.com/pesquisas/conheca-a-nova-plataforma-de-pesquisa-automatizada/
+Redirect 301 /conheca-a-nova-plataforma-de-pesquisa-automatizada https://mindminers.com/pesquisas/conheca-a-nova-plataforma-de-pesquisa-automatizada/
+Redirect 301 /conquiste-engajamento-com-campanhas-conscientes/ https://mindminers.com/marketing/conquiste-engajamento-com-campanhas-conscientes/
+Redirect 301 /conquiste-engajamento-com-campanhas-conscientes https://mindminers.com/marketing/conquiste-engajamento-com-campanhas-conscientes/
+Redirect 301 /contratar-pesquisas-ou-utilizar-dados-secundarios/ https://mindminers.com/pesquisas/contratar-pesquisas-ou-utilizar-dados-secundarios/
+Redirect 301 /contratar-pesquisas-ou-utilizar-dados-secundarios https://mindminers.com/pesquisas/contratar-pesquisas-ou-utilizar-dados-secundarios/
+Redirect 301 /contratar-um-servico-de-pesquisa-de-mercado-ou-utilizar-uma-plataforma/ https://mindminers.com/pesquisas/contratar-um-servico-de-pesquisa-de-mercado-ou-utilizar-uma-plataforma/
+Redirect 301 /contratar-um-servico-de-pesquisa-de-mercado-ou-utilizar-uma-plataforma https://mindminers.com/pesquisas/contratar-um-servico-de-pesquisa-de-mercado-ou-utilizar-uma-plataforma/
+Redirect 301 /como-medir-satisfacao-cliente/ https://mindminers.com/pesquisas/como-medir-satisfacao-cliente/
+Redirect 301 /como-medir-satisfacao-cliente https://mindminers.com/pesquisas/como-medir-satisfacao-cliente/
+Redirect 301 /campanhas-tradicionais-para-consumidores-modernos/ https://mindminers.com/marketing/campanhas-tradicionais-para-consumidores-modernos/
+Redirect 301 /campanhas-tradicionais-para-consumidores-modernos https://mindminers.com/marketing/campanhas-tradicionais-para-consumidores-modernos/
+Redirect 301 /e-branding-veja-como-construir-marcas-online/ https://mindminers.com/marketing/e-branding-veja-como-construir-marcas-online/
+Redirect 301 /e-branding-veja-como-construir-marcas-online https://mindminers.com/marketing/e-branding-veja-como-construir-marcas-online/
+Redirect 301 /entenda-a-diferenca-entre-pesquisa-de-marketing-e-pesquisa-de-mercado/ https://mindminers.com/pesquisas/entenda-a-diferenca-entre-pesquisa-de-marketing-e-pesquisa-de-mercado/
+Redirect 301 /entenda-a-diferenca-entre-pesquisa-de-marketing-e-pesquisa-de-mercado https://mindminers.com/pesquisas/entenda-a-diferenca-entre-pesquisa-de-marketing-e-pesquisa-de-mercado/
+Redirect 301 /entenda-o-que-e-escala-likert/ https://mindminers.com/pesquisas/entenda-o-que-e-escala-likert/
+Redirect 301 /entenda-o-que-e-escala-likert https://mindminers.com/pesquisas/entenda-o-que-e-escala-likert/
+Redirect 301 /geracao-y-mais-insatisfeita-no-trabalho/ https://mindminers.com/pesquisas/geracao-y-mais-insatisfeita-no-trabalho/
+Redirect 301 /geracao-y-mais-insatisfeita-no-trabalho https://mindminers.com/pesquisas/geracao-y-mais-insatisfeita-no-trabalho/
+Redirect 301 /jornada-do-consumidor-entenda-melhor-essa-estrategia/ https://mindminers.com/marketing/jornada-do-consumidor-entenda-melhor-essa-estrategia/
+Redirect 301 /jornada-do-consumidor-entenda-melhor-essa-estrategia https://mindminers.com/marketing/jornada-do-consumidor-entenda-melhor-essa-estrategia/
+Redirect 301 /lembranca-de-marca/ https://mindminers.com/marketing/lembranca-de-marca/
+Redirect 301 /lembranca-de-marca https://mindminers.com/marketing/lembranca-de-marca/
+Redirect 301 /meseems-saiba-mais-sobre-a-caracterizacao-da-nossa-base-de-respondentes/ https://mindminers.com/pesquisas/meseems-saiba-mais-sobre-a-caracterizacao-da-nossa-base-de-respondentes/
+Redirect 301 /meseems-saiba-mais-sobre-a-caracterizacao-da-nossa-base-de-respondentes https://mindminers.com/pesquisas/meseems-saiba-mais-sobre-a-caracterizacao-da-nossa-base-de-respondentes/
+Redirect 301 /na-midia-publicitarios-nao-consideram-concorrencia-entre-agencias-transparente/ https://mindminers.com/saiu-na-midia/na-midia-publicitarios-nao-consideram-concorrencia-entre-agencias-transparente/
+Redirect 301 /na-midia-publicitarios-nao-consideram-concorrencia-entre-agencias-transparente https://mindminers.com/saiu-na-midia/na-midia-publicitarios-nao-consideram-concorrencia-entre-agencias-transparente/
+Redirect 301 /opiniao-dos-millennials-sobre-tendencias-e-trabalho/ https://mindminers.com/saiu-na-midia/opiniao-dos-millennials-sobre-tendencias-e-trabalho/
+Redirect 301 /opiniao-dos-millennials-sobre-tendencias-e-trabalho https://mindminers.com/saiu-na-midia/opiniao-dos-millennials-sobre-tendencias-e-trabalho/
+Redirect 301 /na-midia-principal-motivo-para-empreender-e-complementar-renda/ https://mindminers.com/pesquisas/na-midia-principal-motivo-para-empreender-e-complementar-renda/
+Redirect 301 /na-midia-principal-motivo-para-empreender-e-complementar-renda https://mindminers.com/pesquisas/na-midia-principal-motivo-para-empreender-e-complementar-renda/
+Redirect 301 /na-midia-publico-quer-trocar-assinatura-de-tv-por-netflix/ https://mindminers.com/saiu-na-midia/na-midia-publico-quer-trocar-assinatura-de-tv-por-netflix/
+Redirect 301 /na-midia-publico-quer-trocar-assinatura-de-tv-por-netflix https://mindminers.com/saiu-na-midia/na-midia-publico-quer-trocar-assinatura-de-tv-por-netflix/
+Redirect 301 /nao-cometa-esse-erro-na-sua-campanha-publicitaria/ https://mindminers.com/marketing/nao-cometa-esse-erro-na-sua-campanha-publicitaria/
+Redirect 301 /nao-cometa-esse-erro-na-sua-campanha-publicitaria https://mindminers.com/marketing/nao-cometa-esse-erro-na-sua-campanha-publicitaria/
+Redirect 301 /o-millennial-e-mesmo-empreendedor/ https://mindminers.com/pesquisas/o-millennial-e-mesmo-empreendedor/
+Redirect 301 /o-millennial-e-mesmo-empreendedor https://mindminers.com/pesquisas/o-millennial-e-mesmo-empreendedor/
+Redirect 301 /o-que-e-pesquisa-automatizada/ https://mindminers.com/pesquisas/o-que-e-pesquisa-automatizada/
+Redirect 301 /o-que-e-pesquisa-automatizada https://mindminers.com/pesquisas/o-que-e-pesquisa-automatizada/
+Redirect 301 /o-que-e-e-como-se-faz-um-teste-de-conceito/ https://mindminers.com/pesquisas/o-que-e-e-como-se-faz-um-teste-de-conceito/
+Redirect 301 /o-que-e-e-como-se-faz-um-teste-de-conceito https://mindminers.com/pesquisas/o-que-e-e-como-se-faz-um-teste-de-conceito/
+Redirect 301 /o-que-e-uma-organizacao-exponencial/ https://mindminers.com/mercado/o-que-e-uma-organizacao-exponencial/
+Redirect 301 /o-que-e-uma-organizacao-exponencial https://mindminers.com/mercado/o-que-e-uma-organizacao-exponencial/
+Redirect 301 /pesquisa-de-marketing-o-que-e-e-por-que-e-tao-importante/ https://mindminers.com/pesquisas/pesquisa-de-marketing-o-que-e-e-por-que-e-tao-importante/
+Redirect 301 /pesquisa-de-marketing-o-que-e-e-por-que-e-tao-importante https://mindminers.com/pesquisas/pesquisa-de-marketing-o-que-e-e-por-que-e-tao-importante/
+Redirect 301 /pesquisa-qualitativa-x-pesquisa-quantitativa-qual-e-melhor-opcao/ https://mindminers.com/pesquisas/pesquisa-qualitativa-x-pesquisa-quantitativa-qual-e-melhor-opcao/
+Redirect 301 /pesquisa-qualitativa-x-pesquisa-quantitativa-qual-e-melhor-opcao https://mindminers.com/pesquisas/pesquisa-qualitativa-x-pesquisa-quantitativa-qual-e-melhor-opcao/
+Redirect 301 /e-book-saiba-o-que-sao-pesquisas-de-tendencia/ https://mindminers.com/pesquisas/e-book-saiba-o-que-sao-pesquisas-de-tendencia/
+Redirect 301 /e-book-saiba-o-que-sao-pesquisas-de-tendencia https://mindminers.com/pesquisas/e-book-saiba-o-que-sao-pesquisas-de-tendencia/
+Redirect 301 /por-que-escolher-nossa-plataforma-de-pesquisa-automatizada/ https://mindminers.com/pesquisas/por-que-escolher-nossa-plataforma-de-pesquisa-automatizada/
+Redirect 301 /por-que-escolher-nossa-plataforma-de-pesquisa-automatizada https://mindminers.com/pesquisas/por-que-escolher-nossa-plataforma-de-pesquisa-automatizada/
+Redirect 301 /por-que-eu-preciso-entender-o-comportamento-do-consumidor/ https://mindminers.com/consumo/por-que-eu-preciso-entender-o-comportamento-do-consumidor/
+Redirect 301 /por-que-eu-preciso-entender-o-comportamento-do-consumidor https://mindminers.com/consumo/por-que-eu-preciso-entender-o-comportamento-do-consumidor/
+Redirect 301 /projetos-certificados-mindminers-aprenda-a-criar-uma-pesquisa-automatica/ https://mindminers.com/pesquisas/projetos-certificados-mindminers-aprenda-a-criar-uma-pesquisa-automatica/
+Redirect 301 /projetos-certificados-mindminers-aprenda-a-criar-uma-pesquisa-automatica https://mindminers.com/pesquisas/projetos-certificados-mindminers-aprenda-a-criar-uma-pesquisa-automatica/
+Redirect 301 /qual-a-importancia-da-pesquisa-para-um-bom-planejamento-de-comunicacao/ https://mindminers.com/pesquisas/qual-a-importancia-da-pesquisa-para-um-bom-planejamento-de-comunicacao/
+Redirect 301 /qual-a-importancia-da-pesquisa-para-um-bom-planejamento-de-comunicacao https://mindminers.com/pesquisas/qual-a-importancia-da-pesquisa-para-um-bom-planejamento-de-comunicacao/
+Redirect 301 /questionarios-mais-curtos-nem-sempre-sao-melhor-opcao/ https://mindminers.com/pesquisas/questionarios-mais-curtos-nem-sempre-sao-melhor-opcao/
+Redirect 301 /questionarios-mais-curtos-nem-sempre-sao-melhor-opcao https://mindminers.com/pesquisas/questionarios-mais-curtos-nem-sempre-sao-melhor-opcao/
+Redirect 301 /o-ponto-de-vista-dos-millennials/ https://mindminers.com/consumo/o-ponto-de-vista-dos-millennials/
+Redirect 301 /o-ponto-de-vista-dos-millennials https://mindminers.com/consumo/o-ponto-de-vista-dos-millennials/
+Redirect 301 /saiu-na-midia-o-futuro-do-varejo/ https://mindminers.com/saiu-na-midia/saiu-na-midia-o-futuro-do-varejo/
+Redirect 301 /saiu-na-midia-o-futuro-do-varejo https://mindminers.com/saiu-na-midia/saiu-na-midia-o-futuro-do-varejo/
+Redirect 301 /saiu-na-midia-44-dos-trabalhadores-vao-usar-o-dinheiro-do-fgts-para-pagar-dividas/ https://mindminers.com/saiu-na-midia/saiu-na-midia-44-dos-trabalhadores-vao-usar-o-dinheiro-do-fgts-para-pagar-dividas/
+Redirect 301 /saiu-na-midia-44-dos-trabalhadores-vao-usar-o-dinheiro-do-fgts-para-pagar-dividas https://mindminers.com/saiu-na-midia/saiu-na-midia-44-dos-trabalhadores-vao-usar-o-dinheiro-do-fgts-para-pagar-dividas/
+Redirect 301 /saiu-na-midia-como-empresas-lidam-com-criticas-nas-redes-sociais/ https://mindminers.com/saiu-na-midia/saiu-na-midia-como-empresas-lidam-com-criticas-nas-redes-sociais/
+Redirect 301 /saiu-na-midia-como-empresas-lidam-com-criticas-nas-redes-sociais https://mindminers.com/saiu-na-midia/saiu-na-midia-como-empresas-lidam-com-criticas-nas-redes-sociais/
+Redirect 301 /saiu-na-midia-operacao-carne-fraca/ https://mindminers.com/saiu-na-midia/saiu-na-midia-operacao-carne-fraca/
+Redirect 301 /saiu-na-midia-operacao-carne-fraca https://mindminers.com/saiu-na-midia/saiu-na-midia-operacao-carne-fraca/
+Redirect 301 /seus-clientes-sao-os-seus-melhores-vendedores/ https://mindminers.com/estrategia/seus-clientes-sao-os-seus-melhores-vendedores/
+Redirect 301 /seus-clientes-sao-os-seus-melhores-vendedores https://mindminers.com/estrategia/seus-clientes-sao-os-seus-melhores-vendedores/
+Redirect 301 /um-erro-numa-campanha-publicitaria-pode-causar-uma-baita-dor-de-cabeca/ https://mindminers.com/marketing/um-erro-numa-campanha-publicitaria-pode-causar-uma-baita-dor-de-cabeca/
+Redirect 301 /um-erro-numa-campanha-publicitaria-pode-causar-uma-baita-dor-de-cabeca https://mindminers.com/marketing/um-erro-numa-campanha-publicitaria-pode-causar-uma-baita-dor-de-cabeca/
+Redirect 301 /uma-visao-sobre-os-millennials-compreendendo-as-geracoes/ https://mindminers.com/consumo/uma-visao-sobre-os-millennials-compreendendo-as-geracoes/
+Redirect 301 /uma-visao-sobre-os-millennials-compreendendo-as-geracoes https://mindminers.com/consumo/uma-visao-sobre-os-millennials-compreendendo-as-geracoes/
+Redirect 301 /uso-de-redes-sociais-x-midia-tradicional/ https://mindminers.com/pesquisas/uso-de-redes-sociais-x-midia-tradicional/
+Redirect 301 /uso-de-redes-sociais-x-midia-tradicional https://mindminers.com/pesquisas/uso-de-redes-sociais-x-midia-tradicional/
+Redirect 301 /veja-9-empresas-que-usam-gamificacao-para-engajar-clientes/ https://mindminers.com/inovacao/veja-9-empresas-que-usam-gamificacao-para-engajar-clientes/
+Redirect 301 /veja-9-empresas-que-usam-gamificacao-para-engajar-clientes https://mindminers.com/inovacao/veja-9-empresas-que-usam-gamificacao-para-engajar-clientes/
+Redirect 301 /voce-sabe-como-funciona-uma-pesquisa-de-tendencia/ https://mindminers.com/pesquisas/voce-sabe-como-funciona-uma-pesquisa-de-tendencia/
+Redirect 301 /voce-sabe-como-funciona-uma-pesquisa-de-tendencia https://mindminers.com/pesquisas/voce-sabe-como-funciona-uma-pesquisa-de-tendencia/
+</IfModule>
+
+# END WordPress
+
+<filesMatch ".(ico|pdf|flv|jpg|svg|jpeg|png|gif|js|css|swf)$">
+ Header set Cache-Control "max-age=84600, public"
+</filesMatch>

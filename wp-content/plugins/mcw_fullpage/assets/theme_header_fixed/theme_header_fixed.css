@@ -1,0 +1,18 @@
+.fp-enabled <?php echo $header?> {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  top: 0 !important;
+  z-index: 9999;
+}
+
+.fp-enabled .admin-bar <?php echo $header?>{
+  top: 32px !important;
+}
+
+@media screen and (max-width: 782px) {
+  .fp-enabled .admin-bar <?php echo $header?>{
+    top: 46px !important;
+  }
+}

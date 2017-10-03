@@ -1,0 +1,4 @@
+{
+  "before": {"file":"theme_remove_margins.min.js"},
+  "css": {"file":"theme_remove_margins.min.css"}
+}

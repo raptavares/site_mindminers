@@ -1,0 +1,449 @@
+0000.001 (0) Opened log file at time: Wed, 17 May 2017 18:14:52 +0000 on http://localhost/mindminers
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 865132.4 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.009 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Semaphore (fd, wpmm_options) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (fd) time to 2017-05-17 18:14:52
+0000.049 (0) Semaphore lock (fd) complete
+0000.064 (0) Backup run: resumption=0, nonce=d1fd3b3890f2, begun at=1495044892 (0s ago), job type=backup
+0000.070 (0) Scheduling a resumption (1) after 300 seconds (1495045192) in case this run gets aborted
+0000.084 (0) Checking if we have a zip executable available
+0000.087 (0) Creation of backups of directories: beginning
+0000.093 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.714 (0) Total entities for the zip file: 189 directories, 1172 files (0 skipped as non-modified), 20 MB
+0000.759 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.810 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.862 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.912 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.996 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.999 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.5 MB, 1172 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.472 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 600 files added (on-disk size: 5225.7 KB)
+0002.554 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 700 files added (on-disk size: 5225.7 KB)
+0002.642 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 800 files added (on-disk size: 5225.7 KB)
+0002.733 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 900 files added (on-disk size: 5225.7 KB)
+0002.822 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 1000 files added (on-disk size: 5225.7 KB)
+0002.825 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 1172 files batched, 501 (1002) added so far); re-opening (prior size: 5225.7 KB)
+0003.081 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip.tmp: 1100 files added (on-disk size: 5914.9 KB)
+0003.241 (0) Created plugins zip (0) - 6090.1 KB in 3.1 s (1936.6 KB/s) (sha1: 9f66cc66147e36a68ceb33bcc9fc2b8b21654f83, sha256: 937601d60abb7e1491c1077938849d6094be0529efd7f973103083c4ebda7f1a)
+0003.245 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.292 (0) Total entities for the zip file: 24 directories, 144 files (0 skipped as non-modified), 2.9 MB
+0003.337 (0) Zip: backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.324 (0) Created themes zip (0) - 2243.1 KB in 1.1 s (2084.7 KB/s) (sha1: ddab5d8a929369b09d09f9e0953ac0d05f60aef1, sha256: 0226e75e5ad72983465fc36c48757e2d4ecb6650b6e331d6ed124268159b15f3)
+0004.329 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.330 (0) Looking for candidates to back up in: C:\wamp64\www\mindminers/wp-content/uploads
+0004.331 (0) finding files: 2017: adding to list (1)
+0004.332 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.337 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0004.344 (0) Created uploads zip (0) - 0.2 KB in 0 s (23.5 KB/s) (sha1: c54ac7afc8781e17c5a00aefa8598cdd8d396053, sha256: 6abd62d699d4bdf19289eff47c18ccf7a3ae2b65dff5e014eb1521758aee56e1)
+0004.349 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.350 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.351 (0) Looking for candidates to back up in: C:\wamp64\www\mindminers/wp-content
+0004.352 (0) finding files: index.php: adding to list (1)
+0004.353 (0) finding files: languages: adding to list (2)
+0004.354 (0) finding files: plugins: skipping: this is the plugins directory
+0004.355 (0) finding files: themes: skipping: this is the themes directory
+0004.356 (0) finding files: updraft: skipping: this is the updraft directory
+0004.357 (0) finding files: upgrade: skipping: excluded by options
+0004.358 (0) finding files: uploads: skipping: this is the uploads directory
+0004.365 (0) Total entities for the zip file: 3 directories, 17 files (0 skipped as non-modified), 1.6 MB
+0004.514 (0) Created others zip (0) - 456.7 KB in 0.2 s (2974.8 KB/s) (sha1: ccca507746920ec24be22d82226a9a7a2436c6d4, sha256: a6c7ced71f1a0cc1187bd18883563cf12ab1f9f84c03ec5a351265150d8b68ea)
+0004.520 (0) Saving backup status to database (elements: 8)
+0004.523 (0) Beginning creation of database dump (WordPress DB)
+0004.669 (0) Table wpmm_options: Total expected rows (approximate): 192
+0004.754 (0) Table wpmm_options: Total rows added: 188 in 0.08 seconds
+0004.756 (0) Table wpmm_options: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_options.table.gz - 171.5 KB)
+0004.762 (0) Table wpmm_users: Total expected rows (approximate): 1
+0004.764 (0) Table wpmm_users: Total rows added: 1 in 0.00 seconds
+0004.766 (0) Table wpmm_users: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_users.table.gz - 0.5 KB)
+0004.771 (0) Table wpmm_usermeta: Total expected rows (approximate): 18
+0004.774 (0) Table wpmm_usermeta: Total rows added: 18 in 0.00 seconds
+0004.776 (0) Table wpmm_usermeta: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_usermeta.table.gz - 0.9 KB)
+0004.782 (0) Table wpmm_commentmeta: Total expected rows (approximate): 0
+0004.784 (0) Table wpmm_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.786 (0) Table wpmm_commentmeta: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_commentmeta.table.gz - 0.4 KB)
+0004.791 (0) Table wpmm_comments: Total expected rows (approximate): 1
+0004.794 (0) Table wpmm_comments: Total rows added: 1 in 0.00 seconds
+0004.796 (0) Table wpmm_comments: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_comments.table.gz - 0.7 KB)
+0004.802 (0) Table wpmm_links: Total expected rows (approximate): 0
+0004.804 (0) Table wpmm_links: Total rows added: 0 in 0.00 seconds
+0004.805 (0) Table wpmm_links: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_links.table.gz - 0.4 KB)
+0004.811 (0) Table wpmm_postmeta: Total expected rows (approximate): 1
+0004.813 (0) Table wpmm_postmeta: Total rows added: 1 in 0.00 seconds
+0004.814 (0) Table wpmm_postmeta: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_postmeta.table.gz - 0.4 KB)
+0004.820 (0) Table wpmm_posts: Total expected rows (approximate): 3
+0004.823 (0) Table wpmm_posts: Total rows added: 3 in 0.00 seconds
+0004.825 (0) Table wpmm_posts: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_posts.table.gz - 1.4 KB)
+0004.830 (0) Table wpmm_term_relationships: Total expected rows (approximate): 1
+0004.832 (0) Table wpmm_term_relationships: Total rows added: 1 in 0.00 seconds
+0004.834 (0) Table wpmm_term_relationships: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_term_relationships.table.gz - 0.4 KB)
+0004.839 (0) Table wpmm_term_taxonomy: Total expected rows (approximate): 1
+0004.842 (0) Table wpmm_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0004.843 (0) Table wpmm_term_taxonomy: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_term_taxonomy.table.gz - 0.4 KB)
+0004.849 (0) Table wpmm_termmeta: Total expected rows (approximate): 0
+0004.851 (0) Table wpmm_termmeta: Total rows added: 0 in 0.00 seconds
+0004.853 (0) Table wpmm_termmeta: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_termmeta.table.gz - 0.4 KB)
+0004.858 (0) Table wpmm_terms: Total expected rows (approximate): 1
+0004.861 (0) Table wpmm_terms: Total rows added: 1 in 0.00 seconds
+0004.862 (0) Table wpmm_terms: finishing file (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_terms.table.gz - 0.4 KB)
+0004.867 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_options.table.gz (1/12): adding to final database dump
+0004.897 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_users.table.gz (2/12): adding to final database dump
+0004.899 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_usermeta.table.gz (3/12): adding to final database dump
+0004.900 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_commentmeta.table.gz (4/12): adding to final database dump
+0004.901 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_comments.table.gz (5/12): adding to final database dump
+0004.903 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_links.table.gz (6/12): adding to final database dump
+0004.904 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_postmeta.table.gz (7/12): adding to final database dump
+0004.906 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_posts.table.gz (8/12): adding to final database dump
+0004.907 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_term_relationships.table.gz (9/12): adding to final database dump
+0004.908 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_term_taxonomy.table.gz (10/12): adding to final database dump
+0004.910 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_termmeta.table.gz (11/12): adding to final database dump
+0004.911 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db-table-wpmm_terms.table.gz (12/12): adding to final database dump
+0004.912 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: finished writing out complete database file (160 KB)
+0004.923 (0) Total database tables backed up: 12 (backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz, size: 179049, sha256)
+0004.928 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0004.929 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0004.930 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0004.931 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0004.932 (0) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.933 (0) Saving backup history. Total backup size: 8.8 MB
+0004.935 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0004.938 (0) Cloud backup selection (1/1): googledrive (last)
+0004.939 (0) Beginning dispatch of backup to remote (googledrive)
+0004.940 (0) Google Drive: this account is not authorised
+0004.941 (0) An error condition has occurred for the first time during this job
+0004.943 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.945 (0) Number of backup sets in history: 1; groups (db): 1
+0004.946 (0) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0004.947 (0) This backup set is the backup set just made, so will not be deleted.
+0004.947 (0) Number of backup sets in history: 1; groups (files): 1
+0004.948 (0) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0004.949 (0) This backup set is the backup set just made, so will not be deleted.
+0004.950 (0) This backup set is the backup set just made, so will not be deleted.
+0004.951 (0) This backup set is the backup set just made, so will not be deleted.
+0004.951 (0) This backup set is the backup set just made, so will not be deleted.
+0004.951 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.952 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0004.955 (0) Resume backup (d1fd3b3890f2, 0): finish run
+0004.965 (0) Decremented the semaphore (fd) by 1
+0004.967 (0) Semaphore (fd) unlocked
+0004.968 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0004.971 (0) Rescheduling resumption 1: moving to 120 seconds from now (1495045017)
+0004.972 (0) O backup não foi finalizado; um recomeço foi agendado
+0240.088 (1) Opened log file at time: Wed, 17 May 2017 18:18:52 +0000 on http://localhost/mindminers
+0240.090 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0240.091 (1) Free space on disk containing Updraft's temporary directory: 865121 MB
+0240.093 (1) Backup run: resumption=1, nonce=d1fd3b3890f2, begun at=1495044892 (240s ago), job type=backup, previous check-in=4.9s
+0240.095 (1) Scheduling a resumption (2) after 300 seconds (1495045432) in case this run gets aborted
+0240.102 (1) Checking if we have a zip executable available
+0240.103 (1) Creation of backups of directories: already finished
+0240.105 (1) Saving backup status to database (elements: 8)
+0240.107 (1) Database dump (WordPress DB): Creation was completed already
+0240.112 (1) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0240.113 (1) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0240.114 (1) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0240.115 (1) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0240.116 (1) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0240.117 (1) Saving backup history. Total backup size: 8.8 MB
+0240.120 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0240.122 (1) Cloud backup selection (1/1): googledrive (last)
+0240.125 (1) Beginning dispatch of backup to remote (googledrive)
+0240.126 (1) Google Drive: this account is not authorised
+0240.127 (1) An error condition has occurred for the first time during this job
+0240.129 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0240.131 (1) Number of backup sets in history: 1; groups (db): 1
+0240.132 (1) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0240.132 (1) This backup set is the backup set just made, so will not be deleted.
+0240.133 (1) Number of backup sets in history: 1; groups (files): 1
+0240.134 (1) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0240.135 (1) This backup set is the backup set just made, so will not be deleted.
+0240.136 (1) This backup set is the backup set just made, so will not be deleted.
+0240.137 (1) This backup set is the backup set just made, so will not be deleted.
+0240.137 (1) This backup set is the backup set just made, so will not be deleted.
+0240.137 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0240.138 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0240.141 (1) Resume backup (d1fd3b3890f2, 1): finish run
+0240.142 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0240.144 (1) O backup não foi finalizado; um recomeço foi agendado
+0600.130 (2) Opened log file at time: Wed, 17 May 2017 18:24:52 +0000 on http://localhost/mindminers
+0600.131 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0600.132 (2) Free space on disk containing Updraft's temporary directory: 865118.2 MB
+0600.134 (2) Backup run: resumption=2, nonce=d1fd3b3890f2, begun at=1495044892 (600s ago), job type=backup
+0600.136 (2) Scheduling a resumption (3) after 300 seconds (1495045792) in case this run gets aborted
+0600.143 (2) Checking if we have a zip executable available
+0600.144 (2) Creation of backups of directories: already finished
+0600.146 (2) Saving backup status to database (elements: 8)
+0600.148 (2) Database dump (WordPress DB): Creation was completed already
+0600.153 (2) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0600.154 (2) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0600.155 (2) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0600.156 (2) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0600.157 (2) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0600.158 (2) Saving backup history. Total backup size: 8.8 MB
+0600.161 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0600.163 (2) Cloud backup selection (1/1): googledrive (last)
+0600.166 (2) Beginning dispatch of backup to remote (googledrive)
+0600.167 (2) Google Drive: this account is not authorised
+0600.168 (2) An error condition has occurred for the first time during this job
+0600.170 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0600.172 (2) Number of backup sets in history: 1; groups (db): 1
+0600.172 (2) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0600.173 (2) This backup set is the backup set just made, so will not be deleted.
+0600.174 (2) Number of backup sets in history: 1; groups (files): 1
+0600.175 (2) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0600.176 (2) This backup set is the backup set just made, so will not be deleted.
+0600.177 (2) This backup set is the backup set just made, so will not be deleted.
+0600.177 (2) This backup set is the backup set just made, so will not be deleted.
+0600.178 (2) This backup set is the backup set just made, so will not be deleted.
+0600.178 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0600.179 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0600.181 (2) Resume backup (d1fd3b3890f2, 2): finish run
+0600.183 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0600.185 (2) O backup não foi finalizado; um recomeço foi agendado
+0960.084 (3) Opened log file at time: Wed, 17 May 2017 18:30:52 +0000 on http://localhost/mindminers
+0960.086 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0960.087 (3) Free space on disk containing Updraft's temporary directory: 865118.1 MB
+0960.089 (3) Backup run: resumption=3, nonce=d1fd3b3890f2, begun at=1495044892 (960s ago), job type=backup
+0960.091 (3) Scheduling a resumption (4) after 300 seconds (1495046152) in case this run gets aborted
+0960.098 (3) Checking if we have a zip executable available
+0960.099 (3) Creation of backups of directories: already finished
+0960.100 (3) Saving backup status to database (elements: 8)
+0960.103 (3) Database dump (WordPress DB): Creation was completed already
+0960.108 (3) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0960.109 (3) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0960.110 (3) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0960.111 (3) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0960.112 (3) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0960.113 (3) Saving backup history. Total backup size: 8.8 MB
+0960.115 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0960.117 (3) Cloud backup selection (1/1): googledrive (last)
+0960.120 (3) Beginning dispatch of backup to remote (googledrive)
+0960.121 (3) Google Drive: this account is not authorised
+0960.122 (3) An error condition has occurred for the first time during this job
+0960.124 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0960.126 (3) Number of backup sets in history: 1; groups (db): 1
+0960.127 (3) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0960.128 (3) This backup set is the backup set just made, so will not be deleted.
+0960.128 (3) Number of backup sets in history: 1; groups (files): 1
+0960.129 (3) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+0960.130 (3) This backup set is the backup set just made, so will not be deleted.
+0960.131 (3) This backup set is the backup set just made, so will not be deleted.
+0960.132 (3) This backup set is the backup set just made, so will not be deleted.
+0960.132 (3) This backup set is the backup set just made, so will not be deleted.
+0960.133 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0960.133 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0960.136 (3) Resume backup (d1fd3b3890f2, 3): finish run
+0960.137 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0960.139 (3) O backup não foi finalizado; um recomeço foi agendado
+1320.165 (4) Opened log file at time: Wed, 17 May 2017 18:36:52 +0000 on http://localhost/mindminers
+1320.166 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1320.168 (4) Free space on disk containing Updraft's temporary directory: 865117.4 MB
+1320.170 (4) Backup run: resumption=4, nonce=d1fd3b3890f2, begun at=1495044892 (1320s ago), job type=backup
+1320.172 (4) Scheduling a resumption (5) after 300 seconds (1495046512) in case this run gets aborted
+1320.179 (4) Checking if we have a zip executable available
+1320.180 (4) Creation of backups of directories: already finished
+1320.182 (4) Saving backup status to database (elements: 8)
+1320.184 (4) Database dump (WordPress DB): Creation was completed already
+1320.190 (4) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1320.191 (4) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1320.192 (4) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1320.193 (4) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+1320.194 (4) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+1320.195 (4) Saving backup history. Total backup size: 8.8 MB
+1320.198 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1320.200 (4) Cloud backup selection (1/1): googledrive (last)
+1320.203 (4) Beginning dispatch of backup to remote (googledrive)
+1320.204 (4) Google Drive: this account is not authorised
+1320.206 (4) An error condition has occurred for the first time during this job
+1320.210 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1320.214 (4) Number of backup sets in history: 1; groups (db): 1
+1320.216 (4) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+1320.217 (4) This backup set is the backup set just made, so will not be deleted.
+1320.218 (4) Number of backup sets in history: 1; groups (files): 1
+1320.220 (4) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+1320.222 (4) This backup set is the backup set just made, so will not be deleted.
+1320.223 (4) This backup set is the backup set just made, so will not be deleted.
+1320.224 (4) This backup set is the backup set just made, so will not be deleted.
+1320.225 (4) This backup set is the backup set just made, so will not be deleted.
+1320.226 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1320.227 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1320.229 (4) Resume backup (d1fd3b3890f2, 4): finish run
+1320.231 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1320.233 (4) O backup não foi finalizado; um recomeço foi agendado
+1680.100 (5) Opened log file at time: Wed, 17 May 2017 18:42:52 +0000 on http://localhost/mindminers
+1680.101 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1680.102 (5) Free space on disk containing Updraft's temporary directory: 865109.9 MB
+1680.104 (5) Backup run: resumption=5, nonce=d1fd3b3890f2, begun at=1495044892 (1680s ago), job type=backup
+1680.106 (5) Scheduling a resumption (6) after 300 seconds (1495046872) in case this run gets aborted
+1680.113 (5) Checking if we have a zip executable available
+1680.114 (5) Creation of backups of directories: already finished
+1680.116 (5) Saving backup status to database (elements: 8)
+1680.118 (5) Database dump (WordPress DB): Creation was completed already
+1680.123 (5) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1680.124 (5) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1680.125 (5) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1680.126 (5) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+1680.127 (5) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+1680.128 (5) Saving backup history. Total backup size: 8.8 MB
+1680.131 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1680.133 (5) Cloud backup selection (1/1): googledrive (last)
+1680.136 (5) Beginning dispatch of backup to remote (googledrive)
+1680.137 (5) Google Drive: this account is not authorised
+1680.138 (5) An error condition has occurred for the first time during this job
+1680.140 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1680.141 (5) Number of backup sets in history: 1; groups (db): 1
+1680.142 (5) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+1680.143 (5) This backup set is the backup set just made, so will not be deleted.
+1680.144 (5) Number of backup sets in history: 1; groups (files): 1
+1680.145 (5) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+1680.146 (5) This backup set is the backup set just made, so will not be deleted.
+1680.147 (5) This backup set is the backup set just made, so will not be deleted.
+1680.148 (5) This backup set is the backup set just made, so will not be deleted.
+1680.148 (5) This backup set is the backup set just made, so will not be deleted.
+1680.148 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1680.149 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1680.152 (5) Resume backup (d1fd3b3890f2, 5): finish run
+1680.153 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1680.155 (5) O backup não foi finalizado; um recomeço foi agendado
+2040.170 (6) Opened log file at time: Wed, 17 May 2017 18:48:52 +0000 on http://localhost/mindminers
+2040.171 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2040.172 (6) Free space on disk containing Updraft's temporary directory: 865109.8 MB
+2040.174 (6) Backup run: resumption=6, nonce=d1fd3b3890f2, begun at=1495044892 (2040s ago), job type=backup
+2040.176 (6) Scheduling a resumption (7) after 300 seconds (1495047232) in case this run gets aborted
+2040.183 (6) Checking if we have a zip executable available
+2040.184 (6) Creation of backups of directories: already finished
+2040.186 (6) Saving backup status to database (elements: 8)
+2040.188 (6) Database dump (WordPress DB): Creation was completed already
+2040.193 (6) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2040.194 (6) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2040.196 (6) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2040.197 (6) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+2040.198 (6) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+2040.199 (6) Saving backup history. Total backup size: 8.8 MB
+2040.201 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2040.203 (6) Cloud backup selection (1/1): googledrive (last)
+2040.206 (6) Beginning dispatch of backup to remote (googledrive)
+2040.207 (6) Google Drive: this account is not authorised
+2040.208 (6) An error condition has occurred for the first time during this job
+2040.210 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2040.212 (6) Number of backup sets in history: 1; groups (db): 1
+2040.213 (6) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2040.214 (6) This backup set is the backup set just made, so will not be deleted.
+2040.215 (6) Number of backup sets in history: 1; groups (files): 1
+2040.215 (6) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2040.216 (6) This backup set is the backup set just made, so will not be deleted.
+2040.217 (6) This backup set is the backup set just made, so will not be deleted.
+2040.218 (6) This backup set is the backup set just made, so will not be deleted.
+2040.218 (6) This backup set is the backup set just made, so will not be deleted.
+2040.219 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2040.219 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2040.222 (6) Resume backup (d1fd3b3890f2, 6): finish run
+2040.223 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2040.226 (6) O backup não foi finalizado; um recomeço foi agendado
+2400.170 (7) Opened log file at time: Wed, 17 May 2017 18:54:52 +0000 on http://localhost/mindminers
+2400.172 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2400.173 (7) Free space on disk containing Updraft's temporary directory: 865109.5 MB
+2400.176 (7) Backup run: resumption=7, nonce=d1fd3b3890f2, begun at=1495044892 (2400s ago), job type=backup
+2400.178 (7) Scheduling a resumption (8) after 300 seconds (1495047592) in case this run gets aborted
+2400.185 (7) Checking if we have a zip executable available
+2400.186 (7) Creation of backups of directories: already finished
+2400.188 (7) Saving backup status to database (elements: 8)
+2400.190 (7) Database dump (WordPress DB): Creation was completed already
+2400.195 (7) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2400.196 (7) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2400.197 (7) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2400.198 (7) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+2400.199 (7) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+2400.200 (7) Saving backup history. Total backup size: 8.8 MB
+2400.203 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2400.205 (7) Cloud backup selection (1/1): googledrive (last)
+2400.208 (7) Beginning dispatch of backup to remote (googledrive)
+2400.209 (7) Google Drive: this account is not authorised
+2400.210 (7) An error condition has occurred for the first time during this job
+2400.212 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2400.214 (7) Number of backup sets in history: 1; groups (db): 1
+2400.214 (7) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2400.215 (7) This backup set is the backup set just made, so will not be deleted.
+2400.216 (7) Number of backup sets in history: 1; groups (files): 1
+2400.217 (7) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2400.218 (7) This backup set is the backup set just made, so will not be deleted.
+2400.219 (7) This backup set is the backup set just made, so will not be deleted.
+2400.219 (7) This backup set is the backup set just made, so will not be deleted.
+2400.220 (7) This backup set is the backup set just made, so will not be deleted.
+2400.220 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2400.221 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2400.223 (7) Resume backup (d1fd3b3890f2, 7): finish run
+2400.225 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2400.227 (7) O backup não foi finalizado; um recomeço foi agendado
+2760.179 (8) Opened log file at time: Wed, 17 May 2017 19:00:52 +0000 on http://localhost/mindminers
+2760.181 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2760.182 (8) Free space on disk containing Updraft's temporary directory: 865109.9 MB
+2760.184 (8) Backup run: resumption=8, nonce=d1fd3b3890f2, begun at=1495044892 (2760s ago), job type=backup
+2760.186 (8) Scheduling a resumption (9) after 300 seconds (1495047952) in case this run gets aborted
+2760.193 (8) Checking if we have a zip executable available
+2760.194 (8) Creation of backups of directories: already finished
+2760.195 (8) Saving backup status to database (elements: 8)
+2760.198 (8) Database dump (WordPress DB): Creation was completed already
+2760.203 (8) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2760.204 (8) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2760.205 (8) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2760.206 (8) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+2760.207 (8) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+2760.208 (8) Saving backup history. Total backup size: 8.8 MB
+2760.211 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2760.213 (8) Cloud backup selection (1/1): googledrive (last)
+2760.216 (8) Beginning dispatch of backup to remote (googledrive)
+2760.217 (8) Google Drive: this account is not authorised
+2760.218 (8) An error condition has occurred for the first time during this job
+2760.220 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2760.222 (8) Number of backup sets in history: 1; groups (db): 1
+2760.223 (8) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2760.224 (8) This backup set is the backup set just made, so will not be deleted.
+2760.225 (8) Number of backup sets in history: 1; groups (files): 1
+2760.226 (8) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+2760.226 (8) This backup set is the backup set just made, so will not be deleted.
+2760.227 (8) This backup set is the backup set just made, so will not be deleted.
+2760.228 (8) This backup set is the backup set just made, so will not be deleted.
+2760.228 (8) This backup set is the backup set just made, so will not be deleted.
+2760.229 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2760.230 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2760.232 (8) Resume backup (d1fd3b3890f2, 8): finish run
+2760.234 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2760.236 (8) O backup não foi finalizado; um recomeço foi agendado
+3120.191 (9) Opened log file at time: Wed, 17 May 2017 19:06:52 +0000 on http://localhost/mindminers
+3120.193 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 5.6.25 (apache2handler, Windows NT DESKTOP-C3V4H16 10.0 build 15063 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: pt_BR Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 30.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3120.194 (9) Free space on disk containing Updraft's temporary directory: 865109.7 MB
+3120.196 (9) Backup run: resumption=9, nonce=d1fd3b3890f2, begun at=1495044892 (3120s ago), job type=backup
+3120.198 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+3120.204 (9) Creation of backups of directories: already finished
+3120.206 (9) Saving backup status to database (elements: 8)
+3120.208 (9) Database dump (WordPress DB): Creation was completed already
+3120.213 (9) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3120.214 (9) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3120.215 (9) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3120.215 (9) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+3120.216 (9) backup_2017-05-17-1514_MindMiners_d1fd3b3890f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+3120.217 (9) Saving backup history. Total backup size: 8.8 MB
+3120.220 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+3120.222 (9) Cloud backup selection (1/1): googledrive (last)
+3120.225 (9) Beginning dispatch of backup to remote (googledrive)
+3120.226 (9) Google Drive: this account is not authorised
+3120.227 (9) An error condition has occurred for the first time during this job
+3120.230 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3120.231 (9) Number of backup sets in history: 1; groups (db): 1
+3120.232 (9) Examining (for databases) backup set with group_id=0, nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+3120.233 (9) This backup set is the backup set just made, so will not be deleted.
+3120.234 (9) Number of backup sets in history: 1; groups (files): 1
+3120.235 (9) Examining (for files) backup set with nonce=d1fd3b3890f2, datestamp=1495044892 (May 17 2017 18:14:52)
+3120.236 (9) This backup set is the backup set just made, so will not be deleted.
+3120.237 (9) This backup set is the backup set just made, so will not be deleted.
+3120.237 (9) This backup set is the backup set just made, so will not be deleted.
+3120.238 (9) This backup set is the backup set just made, so will not be deleted.
+3120.238 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.239 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3120.241 (9) Resume backup (d1fd3b3890f2, 9): finish run
+3120.243 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3120.245 (9) Fetching RSS news feed
+3121.204 (9) Fetched RSS news feed; result is a: SimplePie
+3121.261 (9) Sending email ('Arquivos e banco de dados (Backup Completo (Full))') report (attachments: 1, size: 44 KB) to: marke...
+3122.274 (9) A tentativa de backup terminou, aparentemente sem sucesso

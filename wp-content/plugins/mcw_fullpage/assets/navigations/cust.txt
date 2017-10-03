@@ -1,0 +1,17 @@
+{
+  "css": {
+    "file":"default.css",
+    "params": {
+      "selector": ".fp-enabled #fp-nav",
+      "color_main_enable": "",
+      "color_hover_enable": "",
+      "color_active_enable": "",
+      "main": "",
+      "main_rgba": "",
+      "hover": "",
+      "hover_rgba": "",
+      "active": "",
+      "active_rgba": ""
+    }
+  }
+}

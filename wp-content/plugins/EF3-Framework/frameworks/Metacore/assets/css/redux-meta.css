@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+.redux-section-desc{
+	word-wrap: break-word;
+}
+
+.redux-meta .wrap:FIRST-CHILD {
+	display: none;
+}
+
+.redux-meta h2.ui-sortable-handle {
+	background-color: #488A7D;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.redux-meta .handlediv {
+	color: #fff;
+}
+
+.redux-meta .inside {
+	margin: -6px 0 0!important;
+	padding: 0;
+}
+
+.redux-meta .inside .wrap {
+	margin: 0;
+}
+
+.redux-container {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin-top: 0;
+}
+
+.redux-main {
+	border: none;
+}
+
+.redux-main .form-table tr {
+	border-bottom: 1px solid #F1F1F1;
+}
+
+.redux-container .redux-group-menu li.active:not(.hasSubSections) {
+	border-left: 4px solid #488A7D!important;
+}
+
+/** tab */
+.redux-group-tab h2{
+	display: none;
+}
+
+/** side-sortables */
+#side-sortables .redux-meta .redux-main {
+	min-height: auto;
+}
+
+#side-sortables .redux-meta .redux-sidebar {
+	display: none;
+}
+
+#side-sortables .redux-meta .redux-main .form-table tr{
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+#side-sortables .redux-meta .redux-main .form-table td{
+	display: block;
+	vertical-align: middle;
+}
+
+#side-sortables .redux-meta .redux-main .form-table tr .redux_field_th{
+	padding: 5px 0 0 0;
+}

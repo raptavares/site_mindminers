@@ -1,0 +1,637 @@
+/* ==========================================================================
+    Style Main Menu
+========================================================================== */
+/*
+-----> Minimum width of 992 pixels.
+*/
+
+
+
+@media screen and (min-width: 992px) {
+  
+  .new-item-menu a {
+    line-height: $nav_menu;
+    color: #fff;
+    padding: 0 15px;
+    &:hover {
+      color: $primary_color;
+    }
+  }
+  .header-fixed .new-item-menu a {
+    line-height: $nav_menu_sticky;
+    color: $color_dark;
+    &:hover {
+      color: $primary_color;
+    }
+  }
+  #cshero-menu-mobile {
+    display: none;
+  }
+  .effect-line .menu-main-menu > li {
+    > a {
+      .menu-title {
+        position: relative;
+        &:before {
+          bottom: -10px;
+          height: 2px;
+          width: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          background-color: transparent;
+          @include transition(all 300ms linear 0ms);
+          position: absolute;
+          content: "";
+        }
+      }
+    }
+    &.current-menu-ancestor > a, &.current-page-parent > a, &.current-menu-parent > a, &.current-menu-item  > a, > a:hover {
+      .menu-title:before {
+        width: 20px;
+        background-color: $color_dark;
+      }
+    } 
+  }
+  #cshero-header-navigation {
+    position: static;
+  }
+  .cshero-header-navigation .main-navigation {
+    text-align: right;
+    .menu-main-menu {
+      > ul > li, > li {
+        vertical-align: top;
+        padding: 0 $menu_space;
+        display: inline-block;
+        position: relative;
+        > a {
+          font-size: 13px;
+          color: $color_dark;
+          display: block;
+          text-transform: uppercase;
+          @include transition(all 300ms linear 0ms !important);
+          font-weight: 700;
+          line-height: $nav_menu;
+          visibility: inherit !important;
+          i {
+            display: block;
+            width: 100%;
+            line-height: 0;
+            margin-bottom: 6px;
+            @include transition(all 300ms linear 0ms);
+            + .menu-title {
+              @include transform(translateY(25px));
+              display: block;
+            }
+          }
+          .menu-title {
+            position: relative;
+          }
+          &.onepage.current {
+            color: $primary_color;
+          }
+        }
+        > ul.sub-menu {
+          opacity: 0;
+          @include transition(all 0.4s ease 0s);
+        }
+        &:hover {
+          > ul.sub-menu {
+            opacity: 1;
+          }
+        }
+        .cs-menu-toggle {
+          display: none;
+        }
+      }
+    }
+  }
+  .cshero-header-navigation .main-navigation {
+    li {
+      ul:not(.wg-menu-item) {
+        background-color: #fff;
+        margin: 0;
+        padding: 11px 0;
+        position: absolute;
+        top: 100%;
+        z-index: 1001;
+        height: 0px;
+        min-width: 210px;
+        width: inherit !important;
+        overflow: hidden;
+        visibility: hidden;
+        @include box-shadow(0 2px 3px 0 rgba(0, 0, 0, 0.25));
+        clip: rect(1px, 1px, 1px, 1px);
+        @include transform(scaleY(0));
+        transform-origin: 0 0 0;
+        -webkit-transform-origin: 0 0 0;
+        -ms-transform-origin: 0 0 0;
+        -o-transform-origin: 0 0 0;
+        li.menu-item-has-children > a {
+          position: relative;
+          &:after {
+            content: "\f105";
+            font-family: FontAwesome;
+            font-size: inherit;
+            position: absolute;
+            right: 0;
+            color: #7f7f7f;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+    li:hover > ul.sub-menu {
+      height: inherit;
+      overflow: visible;
+      visibility: visible;
+      opacity: 1;
+      clip: inherit;
+      @include transform(scaleY(1));
+    }
+  }
+  /* Menu Stick Wall */
+  .cshero-header-navigation .main-navigation li ul ul:not(.wg-menu-item) {
+    top: -11px;
+    left: 100%;
+    &.back {
+      right: 100%;
+      left: auto;
+      ul:not(.back) {
+        right: 100%;
+        left: auto;
+      }
+      ul.back {
+        left: 100%;
+        right: auto;
+        ul:not(.back) {
+          left: 100%;
+          right: auto;
+        }
+        ul.back {
+          right: 100%;
+          left: auto;
+        }
+      }
+    }
+  }
+  /* End Menu Stick Wall */
+  .cshero-header-navigation .main-navigation {
+    ul li:hover > ul, ul li:focus > ul, .focus > ul {
+      border-left: 0;
+      clip: inherit;
+      height: inherit;
+      overflow: visible;
+      visibility: visible;
+    }
+    li ul li {
+      padding: 0 25px;
+      white-space: nowrap;
+      a {
+        display: block;
+        font-size: 13px;
+        padding: 8px 0;
+        text-align: left;
+        color: #7f7f7f;
+        border-bottom: 1px solid #f2f2f2;
+        @include transition(all 300ms linear 0ms !important);
+        i {
+          padding-right: 6px;
+        }
+        &:hover {
+          color: $primary_color;
+          padding-left: 12px;
+        }
+      }
+      &.current-menu-parent > a, &.current-menu-item > a {
+        color: $primary_color;
+        &:after {
+          color: $primary_color !important;
+        }
+      }
+    }
+    li ul.sub-menu li:last-child > a {
+      border: none;
+    }
+    ul.sub-menu li {
+      position: relative;
+    }
+  }
+  /* End Menu Sub Level */
+
+  /* Start Mega Menu */
+  .cshero-header-navigation .main-navigation {
+    .columns2 > li:nth-of-type(2n+1),
+    .columns3 > li:nth-child(3n+1),
+    .columns4 > li:nth-child(4n+1),
+    .columns5 > li:nth-child(5n+1) {
+      clear:left;
+      border-right:0px solid transparent;
+    }
+    .columns5 > li {
+      width:20% !important;
+    }
+    .columns4 > li{
+      width:25% !important;
+    }
+    .columns3 > li{
+      width:33.3344% !important;
+    }
+    .columns2 > li{
+      width:50% !important;
+    }
+    [class*="columns"]  {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      > li {
+        float: left;
+        padding: 0;
+        ul li {
+          padding: 0 25px;
+          ul.sub-menu li {
+            padding: 0 30px;
+          }
+        }
+        > a {
+          width: 100%;
+          border-bottom: none;
+          &:after {
+            content: "" !important;
+          }
+        }
+      }
+    }
+    .menu-main-menu li.has_full_width {
+      position: inherit;
+    }
+    .menu-main-menu li:not(.group) > ul.drop_full_width.sub-menu {
+      left: 0;
+      margin: auto;
+      right: 0;
+      width: 100% !important;
+      li {
+        a {
+          display: block;
+          font-size: 13px;
+          padding: 6px 0;
+          text-align: left;
+          color: #7f7f7f;
+          &:hover {
+            color: $primary_color;
+            padding-left: 10px;
+          }
+        }
+        &:before {
+          display: none;
+        }
+        &.current-menu-item > a {
+          color: $primary_color;
+        }
+      }
+      > li {
+        > a {
+          padding: 0 25px;
+          margin-bottom: 8px;
+          margin-top: 6px;
+        }
+        > a, > a span {
+          color: $color_dark;
+          font-weight: 600;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+        > ul.sub-menu {
+          background-color: transparent;
+          border-top: none !important;
+        }
+      }
+    }
+    .menu-main-menu li:not(.group) > ul.drop_to_right.sub-menu {
+        left: auto;
+        right: 90px;
+        margin: auto;
+        .sub-menu {
+          background-color: transparent;
+        }
+        > li > a {
+          display: block;
+          font-size: 13px;
+          padding: 6px 0;
+          text-align: left;
+          color: #7f7f7f;
+          &:hover {
+            color: $primary_color;
+          }
+        }
+    }
+    li.group > ul.sub-menu {
+      display: block;
+      float: left;
+      left: 0;
+      position: relative;
+      width: 100%;
+      height: inherit;
+    }
+    ul.multicolumn > li {
+      border-left: 1px solid #f2f2f2;
+      padding-left: 10px;
+      &.hidden-menu-item > a {
+        display: none !important;
+      }
+      ul.sub-menu ul.sub-menu {
+        background-color: #fff !important;
+        opacity: 0;
+        @include transition(all 0.4s ease 0s);
+      }
+      ul.sub-menu > li:hover > ul.sub-menu {
+        opacity: 1;
+      }
+      > ul.sub-menu {
+        height: inherit;
+        opacity: 1;
+        overflow: visible;
+        padding-bottom: 0;
+        visibility: visible;
+        @include box-shadow(none);
+        @include transform(scaleY(1));
+        > li > a {
+          border-bottom: none;
+        }
+      }
+      &:hover {
+        position: relative;
+        z-index: 10;
+      }
+      &.hidden-menu-item > a {
+        display: none;
+      }
+    }
+    ul.standar-dropdown li {
+      ul.sub-menu {
+        opacity: 0;
+        @include transition(all 0.4s ease 0s);
+      }
+      &:hover {
+        ul.sub-menu {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  /* End Start Mega Menu */
+
+  /* Header Fixed */
+  .header-fixed {
+    .effect-line .menu-main-menu > li > a .menu-title:before {
+      bottom: -9px;
+    }
+  }
+  .header-7.no-header-top .cshero-header-navigation .main-navigation .menu-main-menu li:not(.group) > ul.drop_full_width.sub-menu {
+    max-width: 1170px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+}
+
+/*
+-----> Minimum width of 992 pixels.
+*/
+.cs-menu-toggle {
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 6px;
+  width: 30px;
+  &:before {
+    content: "\f278";
+    font-family: Material-Design-Iconic-Font;
+    font-size: 14px;
+    color: $color_dark;
+    @include transition(all 300ms linear 0ms);
+  }
+  &:hover:before {
+    color: $primary_color;
+  }
+}
+.menu-accordion {
+  li {
+    position: relative;
+    a {
+      color: #fff;
+      font-weight: 600;
+      font-size: 20px;
+      .cs-menu-toggle {
+      
+      }
+    }
+  }
+  > li {
+    padding: 12px 0;
+    > a {
+      font-size: 30px;
+      line-height: normal;
+    }
+    &.current-menu-ancestor > a, &.current-page-parent > a, &.current-menu-parent > a, &.current-menu-item  > a, > a:hover  {
+      color: $primary_color;
+    }
+  }
+  .cs-menu-toggle {
+    top: 12px;
+    &:before {
+      color: #fff;
+      font-size: 22px;
+    }
+    &:hover:before {
+      color: $primary_color;
+    }
+  }
+  .sub-menu {
+    width: 100% !important;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    @include transition(all 0.25s ease);
+    li {
+      padding: 8px 0;
+      a {
+        &:hover {
+          color: $primary_color;
+        }
+      }
+    }
+    &.submenu-open {
+      padding-top: 15px;
+      max-height: 1000px;
+      opacity: 1;
+      overflow: visible;
+      + .cs-menu-toggle:before {
+        content: "\f273";
+      }
+    }
+  }
+}
+/*
+-----> Max width of 992 pixels.
+*/
+@media screen and (max-width: 991px) {
+  .menu-accordion {
+    li a {
+      font-size: 16px;
+    }
+    > li {
+      padding: 10px 0;
+      > a {
+        font-size: 22px;
+      }
+    }
+  }
+  #cshero-header {
+    border-bottom: 1px solid #e7e4ef;
+    background-color: #fff;
+    > .container {
+      position: relative;
+      z-index: 1001;
+    } 
+    #cshero-header-logo {
+      padding: 0 15px;
+      a {
+        display: inline-block;
+        line-height: 100px;
+        img {
+          max-height: 80px;
+        }
+      }
+    }
+    #cshero-header-navigation {
+      background-color: #fff;
+      max-width: 330px;
+      position: absolute;
+      right: 0;
+      top: 121px;
+      z-index: 1001;
+      padding: 18px 30px;
+      opacity: 0;
+      visibility: hidden;
+      @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.22));
+      @include transition(all 300ms linear 0ms);
+      width: 100% !important;
+      &.navigation-open {
+        opacity: 1;
+        visibility: visible;
+        top: 101px;
+      }
+      .menu-main-menu {
+        li {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+          position: relative;
+          height: inherit !important;
+          a {
+            display: block;
+            padding: 9px 0;
+            color: $color_dark;
+            visibility: inherit !important;
+          }
+          &:last-child {
+            border-bottom: none;
+          }
+          &.current-menu-ancestor > a, &.current-menu-parent > a, &.current-menu-item > a, &:hover > a {
+            color: $primary_color;
+          }
+        }
+        &.nav-menu-left li:last-child {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+        }
+        .sub-menu {
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+          width: 100% !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          @include transition(all 0.25s ease);
+          li {
+            a {
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            &:first-child {
+              border-top: 1px solid rgba(0, 0, 0, 0.07);
+            }
+            &:last-child {
+              border-bottom: none;
+            }
+            .sub-menu li a {
+              padding-left: 15px;
+            }
+          }
+          &.submenu-open {
+            max-height: 1000px;
+            opacity: 1;
+            overflow: visible;
+            + .cs-menu-toggle:before {
+              content: "\f273";
+            }
+          }
+        }
+      }
+    }
+  }
+  #cshero-menu-mobile {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    i {
+      background-color: #222;
+      @include border-radius(2px);
+      @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.22));
+      @include transition(all 300ms linear 0ms);
+      color: #fff;
+      cursor: pointer;
+      font-size: 20px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      width: 46px;
+      display: inline-block;
+      margin-right: 6px;
+      &:hover {
+        background-color: $primary_color;
+      }
+    }
+    cite {
+      background-color: $primary_color;
+      border-radius: 100%;
+      font-size: 12px;
+      font-style: normal;
+      height: 18px;
+      line-height: 18px;
+      position: absolute;
+      right: 0;
+      top: -6px;
+      width: 18px;
+    }
+  }
+}
+/*
+-----> End Max width of 992 pixels.
+*/
+
+@media screen and (max-width: 767px) {
+  #cshero-menu-mobile i {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 3px;
+    width: 30px;
+  }
+}
+
+/* ==========================================================================
+  End Style Main Menu
+========================================================================== */

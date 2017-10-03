@@ -1,0 +1,5 @@
+{
+  "before": {"file":"vc_anim_reset.min.js"},
+  "onLeave": "mcw_vcanim_reset_ol(this);",
+  "onSlideLeave": "mcw_vcacnim_reset_osl(this);"
+}

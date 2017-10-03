@@ -1,0 +1,7 @@
+<?php if (!empty($color_main_enable)):?>
+<?php echo $selector;?> ul li a:not(.active) span{background:rgba(<?php if (!empty($main_rgba)): echo $main_rgba; else: ?>0,0,0<?php endif;?>,0.2);}
+<?php endif;?><?php if (!empty($color_active_enable)):?>
+<?php echo $selector;?> ul li a.active span{background:<?php if (!empty($active)): echo $active; else: ?>#fff<?php endif;?>;}
+<?php endif;?><?php if (!empty($color_hover_enable)):?>
+<?php echo $selector;?> ul li:hover a:not(.active) span{background-color:rgba(<?php if (!empty($hover_rgba)): echo $hover_rgba; else: ?>255,255,255<?php endif;?>,.6);}
+<?php endif;?>

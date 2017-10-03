@@ -1,0 +1,7 @@
+<?php if (!empty($color_main_enable)):?>
+<?php echo $selector;?> ul li a:not(.active) span{background:transparent;border-color:rgba(<?php if (!empty($main_rgba)): echo $main_rgba; else: ?>0,0,0<?php endif;?>,0.3);}
+<?php endif;?><?php if (!empty($color_active_enable)):?>
+<?php echo $selector;?> ul li a.active span{background:<?php if (!empty($main)): echo $main; else: ?>transparent<?php endif;?>;border-color:rgba(<?php if (!empty($active_rgba)): echo $active_rgba; else: ?>0,0,0<?php endif;?>,0.7);}
+<?php endif;?><?php if (!empty($color_hover_enable)):?>
+<?php echo $selector;?> ul li:hover a:not(.active) span{background-color:rgba(<?php if (!empty($hover_rgba)): echo $hover_rgba; else: ?>255,255,255<?php endif;?>,0.5);}
+<?php endif;?>

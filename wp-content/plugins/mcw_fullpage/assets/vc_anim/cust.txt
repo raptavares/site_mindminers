@@ -1,0 +1,5 @@
+{
+  "before": {"file":"vc_anim.min.js"},
+  "afterLoad": "mcw_vcanim_al(this);",
+  "afterSlideLoad": "mcw_vcanim_asl(this);"
+}

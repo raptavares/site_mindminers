@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Phone Module\n"
+"POT-Creation-Date: 2013-01-17 12:01-0300\n"
+"PO-Revision-Date: 2013-01-17 14:27-0300\n"
+"Last-Translator: Gabriel Reguly <gabriel@ppgr.com.br>\n"
+"Language-Team: omniWP\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../trunk/phone.php:190
+msgid "Telephone field"
+msgstr "Campo de telefone"
+
+#: ../trunk/phone.php:202
+msgid "Required field?"
+msgstr "Campo obrigatório?"
+
+#: ../trunk/phone.php:205
+msgid "Name"
+msgstr "Nome"
+
+#: ../trunk/phone.php:210
+msgid "Mask"
+msgstr "Máscara"
+
+#: ../trunk/phone.php:213
+msgid "Alternative Mask"
+msgstr "Máscara alternativa"
+
+#: ../trunk/phone.php:213 ../trunk/phone.php:231 ../trunk/phone.php:234
+#: ../trunk/phone.php:239 ../trunk/phone.php:242
+msgid "optional"
+msgstr "opcional"
+
+#: ../trunk/phone.php:217
+msgid ""
+"a - Represents an alpha character (A-Z,a-z)<br />\n"
+"          9 - Represents a numeric character (0-9)<br />\n"
+"          * - Represents an alphanumeric character (A-Z,a-z,0-9)"
+msgstr ""
+"a - Representa um caracter  alfabético(A-Z,a-z)<br />\n"
+"          9 - Representa um número (0-9)<br />\n"
+"          * - Representa um caracter alfanúmerico (A-Z,a-z,0-9)"
+
+#: ../trunk/phone.php:222
+msgid "Regular expression to trigger changing to the alternative mask"
+msgstr "Expressão regular para ativar a máscara alternativa"
+
+#: ../trunk/phone.php:226
+msgid "Regular expression to change back to the original mask"
+msgstr "Expressão regular para retornar para a máscara original"
+
+#: ../trunk/phone.php:247
+msgid "Copy this code and paste it into the form left."
+msgstr "Copie este código e cole-o no formulário à esquerda."
+
+#: ../trunk/phone.php:250
+msgid "And, put this code into the Mail fields below."
+msgstr "E coloque este código no campo Mail abaixo:"

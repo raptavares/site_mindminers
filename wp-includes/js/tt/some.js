@@ -1,0 +1,3 @@
+// Here we have some javascript code...
+
+document.write('Hello World.');

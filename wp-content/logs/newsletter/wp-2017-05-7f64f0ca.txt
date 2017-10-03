@@ -1,0 +1,2 @@
+19-05-2017 21:33:47 - ERROR - m: 92,5 MB, u: 0 - Table 'mindminers.wpmm_newsletter' doesn't exist
+22-05-2017 13:45:11 - ERROR - m: 92,8 MB, u: 0 - Table 'mindminers.wpmm_newsletter' doesn't exist

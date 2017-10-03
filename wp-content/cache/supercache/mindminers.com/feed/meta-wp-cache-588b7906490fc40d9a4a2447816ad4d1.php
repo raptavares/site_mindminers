@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Content-Encoding":"Content-Encoding: gzip","Vary":"Vary: Accept-Encoding, Cookie","Last-Modified":"Last-Modified: Tue, 03 Oct 2017 13:24:51 GMT","Content-Type":"Content-Type: application\/rss+xml; charset=\"UTF-8\""},"uri":"mindminers.com\/feed","blog_id":1,"post":0,"key":"mindminers.com80\/feedgzip"}

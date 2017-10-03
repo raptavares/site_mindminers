@@ -1,0 +1,227 @@
+/* ==========================================================================
+   [Start] All Style Footer Top & Footer Bottom
+========================================================================== */
+#colophon {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 13px;
+	line-height: 22px;
+	background-image: url(../images/bg-footer.jpg);
+	position: relative;
+	&:before {
+		content: "";
+		background-color: rgba(34,34,34,0.97);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+	}
+}
+#cms-footer-top {
+	padding-top: 90px;
+	padding-bottom: 80px;
+	color: #9b9b9b;
+	.wg-title {
+		font-size: 13px;
+		line-height: normal;
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 0.020em;
+		margin-bottom: 30px;
+	}
+	a {
+		color: #cecece;
+		&:hover {
+			color: #fff;
+		}
+	}
+	.widget_recent_entries {
+		li {
+			line-height: 22px;
+			padding: 0 0 15px;
+		}
+		a {
+			font-size: 14px;
+			font-weight: 600;
+		}
+		span {
+			color: #616161;
+			font-family: 'Droidserif Italic';
+			display: block;
+			line-height: 1;
+			margin-top: 8px;
+		}
+	}
+	.widget_cs_social_widget {
+		padding: 12px 0;
+		li {
+			display: inline-block;
+			a {
+				color: #646464;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+}
+#cms-footer-bottom {
+	border-top: 1px solid rgba(71,71,71,0.25);
+    position: relative;
+    padding: 35px 0;
+    a {
+    	color: $primary_color;
+    	&:hover {
+    		color: #fff;
+    	}
+    }
+    .widget_nav_menu {
+    	ul.menu > li {
+    		display: inline-block;
+    		position: relative;
+    		padding: 0 10px;
+    		&:before {
+    			background-color: #4e4e4e;
+			    content: "";
+			    height: 11px;
+			    left: -2px;
+			    position: absolute;
+			    top: 50%;
+			    @include transform(translate(0px, -50%));
+			    width: 2px;
+    		}
+    		a {
+    			color: #646464;
+    			&:hover {
+    				color: $primary_color;
+    			}
+    		}
+    		&:first-child {
+    			padding-left: 0;
+    			&:before {
+    				display: none;
+    			}
+    		}
+    		&:last-child {
+    			padding-right: 0;
+    		}
+    	}
+    	li {
+    		ul.sub-menu {
+				background-color: #fff;
+				margin: 0;
+				padding: 11px 0;
+				position: absolute;
+				bottom: 100%;
+				z-index: 1001;
+				height: 1px;
+				clip: rect(1px, 1px, 1px, 1px);
+				min-width: 210px;
+				overflow: hidden;
+				@include box-shadow(0 0px 3px 0 rgba(0, 0, 0, 0.25));
+				@include transition(all 300ms linear 0ms);
+				text-align: left;
+				margin: 0 !important;
+				opacity: 0;
+				visibility: hidden;
+				li {
+					a {
+						padding: 0 20px;
+						display: block;
+					}
+					ul.sub-menu {
+						left: 100%;
+						height: 100%;
+						top: 0;
+					}
+				}
+    		}
+    		&:hover {
+    			> ul.sub-menu {
+    				clip: inherit;
+			        overflow: inherit;
+			        height: inherit;
+			        opacity: 1;
+			        visibility: visible;
+    			}
+    		}
+    	}
+    }
+}
+
+.cms-footer4 #cms-footer-bottom {
+	background-color: #fff;
+	color: #646464;
+	border: none;
+}
+.cms-footer5 {
+	text-align: center;
+	position: fixed !important;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	#cms-footer-top {
+		position: relative;
+		padding-top: 220px;
+		padding-bottom: 130px;
+		a.btn-primary {
+			color: #fff;
+			&:hover {
+				background-color: transparent;
+				border-color: $primary_color;
+				color: $primary_color;
+			}
+		}
+		.heading-space {
+			padding-top: 52px;
+			margin-bottom: 50px;
+		}
+	}
+	#cms-footer-bottom {
+		border: none;
+	}
+}
+.cshero-popup-search, .cshero-popup-menu {
+	display: none;
+}
+.wg-heading-footer {
+	font-size: 65px;
+	line-height: 72px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#back_to_top {
+	span {
+		height: 45px;
+		width: 45px;
+		line-height: 45px;
+		text-align: center;
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+		background-color: $primary_color;
+		opacity: 0;
+		visibility: hidden;
+		@include transition(all 300ms linear 0ms);
+		color: #fff;
+		font-size: 18px;
+		cursor: pointer;
+		z-index: 1001;
+		i {
+			vertical-align: middle;
+		}
+		&:hover {
+			background-color: $color_dark;
+		}
+	}
+	&.on span {
+		opacity: 1;
+		visibility: visible;
+	}
+}

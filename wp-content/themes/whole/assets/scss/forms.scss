@@ -1,0 +1,154 @@
+/* ==========================================================================
+   [Start] All Style Form
+========================================================================== */
+input[type='text'],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+textarea, select {
+    background-color: #ffffff;
+    color: #9b9b9b;
+    font-size: 13px;
+    padding: 8px 18px;
+    line-height: 22px;
+    width: 100%;
+    @include border-radius(0);
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+    height: 51px;
+    @include transition(all 300ms linear 0ms);
+}
+textarea {
+    height: 125px;
+    max-width: 100%;
+    padding: 12px 18px;
+}
+input[type='text']:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    border-color: $primary_color;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #9b9b9b;
+    opacity: 1;
+}
+input::-webkit-input-placeholder, textarea::-webkit-placeholder {
+    color: #9b9b9b;
+    opacity: 1;
+}
+input::-o-placeholder, textarea::-o-placeholder {
+    color: #9b9b9b;
+    opacity: 1;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #9b9b9b;
+    opacity: 1;
+}
+
+.wpb_widgetised_column .tnp-field-email input::-moz-placeholder, .wpb_widgetised_column .tnp-field-email textarea::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.wpb_widgetised_column .tnp-field-email input::-webkit-input-placeholder, .wpb_widgetised_column .tnp-field-email textarea::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.placeholder-dark input::-o-placeholder, .wpb_widgetised_column .tnp-field-email textarea::-o-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.wpb_widgetised_column .tnp-field-email input::-ms-placeholder, .wpb_widgetised_column .tnp-field-email textarea::-ms-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.wpb_widgetised_column .tnp-field-email input {
+    color: #fff;
+}
+
+.wpcf7-form {
+    .ajax-loader {
+        display: none;
+    }
+    .wpcf7-form-control {
+        &.wpcf7-textarea {
+            height: 122px;
+        }
+    }
+    .row div[class*="col-"] {
+        margin-bottom: 20px;
+    }
+}
+body span.wpcf7-not-valid-tip {
+    color: $primary_color;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+body div.wpcf7-validation-errors {
+    border: medium none;
+    color: $secondary_color;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 0;
+    font-size: 14px;
+}
+.get-contact-page {
+    h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }    
+    a {
+        font-size: 13px;
+        font-weight: 600;
+        color: $primary_color;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 6px;
+        &:before {
+            content: "";
+            width: 22px;
+            height: 2px;
+            background-color: $primary_color;
+            position: absolute;
+            bottom: 0;
+            left: 0;       
+            @include transition(all 300ms linear 0ms);
+        }
+        &:hover {
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+    p {
+        margin-bottom: 7px;
+    }
+}
+
+/* ==========================================================================
+   [End] All Style Form
+========================================================================== */

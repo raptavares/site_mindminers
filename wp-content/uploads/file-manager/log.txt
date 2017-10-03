@@ -1,0 +1,1806 @@
+[Sun, 02 Jul 2017 21:32:19 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1498757567,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'name' => 'mindminers',
+    'rootRev' => '',
+    'options' => 
+    array (
+      'path' => '',
+      'url' => 'http://mindminers.raphaeltavares.com.br/',
+      'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+      'disabled' => 
+      array (
+        0 => 'chmod',
+      ),
+      'separator' => '/',
+      'copyOverwrite' => 1,
+      'uploadOverwrite' => 1,
+      'uploadMaxSize' => 9223372036854775807,
+      'uploadMaxConn' => 3,
+      'uploadMime' => 
+      array (
+        'firstOrder' => 'allow',
+        'allow' => 
+        array (
+          0 => 'text',
+          1 => 'image',
+          2 => 'video',
+          3 => 'audio',
+          4 => 'application',
+          5 => 'model',
+          6 => 'chemical',
+          7 => 'x-conference',
+          8 => 'message',
+        ),
+        'deny' => 
+        array (
+        ),
+      ),
+      'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+      'jpgQuality' => 100,
+      'archivers' => 
+      array (
+        'create' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'extract' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'createext' => 
+        array (
+          'application/x-tar' => 'tar',
+          'application/x-gzip' => 'tgz',
+          'application/x-bzip2' => 'tbz',
+          'application/x-xz' => 'xz',
+          'application/zip' => 'zip',
+        ),
+      ),
+      'uiCmdMap' => 
+      array (
+      ),
+      'syncChkAsTs' => 1,
+      'syncMinMs' => 10000,
+      'i18nFolderName' => 0,
+      'tmbCrop' => 1,
+      'csscls' => 'elfinder-navbar-root-local',
+    ),
+    'volumeid' => 'l1_',
+    'locked' => 1,
+    'dirs' => 1,
+    'isroot' => 1,
+    'phash' => '',
+    'root' => 'l1_Lw',
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1498757567,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'mindminers',
+      'rootRev' => '',
+      'options' => 
+      array (
+        'path' => '',
+        'url' => 'http://mindminers.raphaeltavares.com.br/',
+        'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+        'disabled' => 
+        array (
+          0 => 'chmod',
+        ),
+        'separator' => '/',
+        'copyOverwrite' => 1,
+        'uploadOverwrite' => 1,
+        'uploadMaxSize' => 9223372036854775807,
+        'uploadMaxConn' => 3,
+        'uploadMime' => 
+        array (
+          'firstOrder' => 'allow',
+          'allow' => 
+          array (
+            0 => 'text',
+            1 => 'image',
+            2 => 'video',
+            3 => 'audio',
+            4 => 'application',
+            5 => 'model',
+            6 => 'chemical',
+            7 => 'x-conference',
+            8 => 'message',
+          ),
+          'deny' => 
+          array (
+          ),
+        ),
+        'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+        'jpgQuality' => 100,
+        'archivers' => 
+        array (
+          'create' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'extract' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'createext' => 
+          array (
+            'application/x-tar' => 'tar',
+            'application/x-gzip' => 'tgz',
+            'application/x-bzip2' => 'tbz',
+            'application/x-xz' => 'xz',
+            'application/zip' => 'zip',
+          ),
+        ),
+        'uiCmdMap' => 
+        array (
+        ),
+        'syncChkAsTs' => 1,
+        'syncMinMs' => 10000,
+        'i18nFolderName' => 0,
+        'tmbCrop' => 1,
+        'csscls' => 'elfinder-navbar-root-local',
+      ),
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'isroot' => 1,
+      'phash' => '',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1497367635,
+      'read' => 1,
+      'write' => 1,
+      'size' => '235',
+      'hash' => 'l1_Lmh0YWNjZXNz',
+      'name' => '.htaccess',
+      'phash' => 'l1_Lw',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1380068291,
+      'read' => 1,
+      'write' => 1,
+      'size' => '418',
+      'hash' => 'l1_aW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19935',
+      'hash' => 'l1_bGljZW5zZS50eHQ',
+      'name' => 'license.txt',
+      'phash' => 'l1_Lw',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '8116',
+      'hash' => 'l1_cmVhZG1lLmh0bWw',
+      'name' => 'readme.html',
+      'phash' => 'l1_Lw',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-markdown',
+      'ts' => 1494633391,
+      'read' => 1,
+      'write' => 1,
+      'size' => '38',
+      'hash' => 'l1_UkVBRE1FLm1k',
+      'name' => 'README.md',
+      'phash' => 'l1_Lw',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1475012188,
+      'read' => 1,
+      'write' => 1,
+      'size' => '5447',
+      'hash' => 'l1_d3AtYWN0aXZhdGUucGhw',
+      'name' => 'wp-activate.php',
+      'phash' => 'l1_Lw',
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495053606,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1450524028,
+      'read' => 1,
+      'write' => 1,
+      'size' => '364',
+      'hash' => 'l1_d3AtYmxvZy1oZWFkZXIucGhw',
+      'name' => 'wp-blog-header.php',
+      'phash' => 'l1_Lw',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472472032,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1627',
+      'hash' => 'l1_d3AtY29tbWVudHMtcG9zdC5waHA',
+      'name' => 'wp-comments-post.php',
+      'phash' => 'l1_Lw',
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3079',
+      'hash' => 'l1_d3AtY29uZmlnLXNhbXBsZS5waHA',
+      'name' => 'wp-config-sample.php',
+      'phash' => 'l1_Lw',
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497367635,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3611',
+      'hash' => 'l1_d3AtY29uZmlnLnBocA',
+      'name' => 'wp-config.php',
+      'phash' => 'l1_Lw',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499031138,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1432488385,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3286',
+      'hash' => 'l1_d3AtY3Jvbi5waHA',
+      'name' => 'wp-cron.php',
+      'phash' => 'l1_Lw',
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1494632710,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1479696390,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2422',
+      'hash' => 'l1_d3AtbGlua3Mtb3BtbC5waHA',
+      'name' => 'wp-links-opml.php',
+      'phash' => 'l1_Lw',
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1477365330,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3301',
+      'hash' => 'l1_d3AtbG9hZC5waHA',
+      'name' => 'wp-load.php',
+      'phash' => 'l1_Lw',
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '34327',
+      'hash' => 'l1_d3AtbG9naW4ucGhw',
+      'name' => 'wp-login.php',
+      'phash' => 'l1_Lw',
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1484111734,
+      'read' => 1,
+      'write' => 1,
+      'size' => '8048',
+      'hash' => 'l1_d3AtbWFpbC5waHA',
+      'name' => 'wp-mail.php',
+      'phash' => 'l1_Lw',
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '16200',
+      'hash' => 'l1_d3Atc2V0dGluZ3MucGhw',
+      'name' => 'wp-settings.php',
+      'phash' => 'l1_Lw',
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497290958,
+      'read' => 1,
+      'write' => 1,
+      'size' => '29924',
+      'hash' => 'l1_d3Atc2lnbnVwLnBocA',
+      'name' => 'wp-signup.php',
+      'phash' => 'l1_Lw',
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1476473968,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4513',
+      'hash' => 'l1_d3AtdHJhY2tiYWNrLnBocA',
+      'name' => 'wp-trackback.php',
+      'phash' => 'l1_Lw',
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472661089,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3065',
+      'hash' => 'l1_eG1scnBjLnBocA',
+      'name' => 'xmlrpc.php',
+      'phash' => 'l1_Lw',
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1496690195,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_X2Ri',
+      'name' => '_db',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499031139,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_LnRtYg',
+      'name' => '.tmb',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+    ),
+  ),
+  'api' => '2.1',
+  'uplMaxSize' => '20M',
+  'uplMaxFile' => '20',
+  'netDrivers' => 
+  array (
+  ),
+  'maxTargets' => 1000,
+) 
+[Sun, 02 Jul 2017 21:32:25 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1499031145,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudA',
+    'name' => 'wp-content',
+    'phash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers/wp-content',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495133761,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9lbnZhdG8tYmFja3Vwcw',
+      'name' => 'envato-backups',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1326042071,
+      'read' => 1,
+      'write' => 1,
+      'size' => '28',
+      'hash' => 'l1_d3AtY29udGVudC9pbmRleC5waHA',
+      'name' => 'index.php',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1494632691,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9sYW5ndWFnZXM',
+      'name' => 'languages',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495131009,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9sb2dz',
+      'name' => 'logs',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499031080,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9wbHVnaW5z',
+      'name' => 'plugins',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1496151640,
+      'read' => 1,
+      'write' => 1,
+      'size' => '0',
+      'hash' => 'l1_d3AtY29udGVudC90ZW1wLXdyaXRlLXRlc3QtMTQ5NjE1MTY0MA',
+      'name' => 'temp-write-test-1496151640',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495133315,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+      'name' => 'themes',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495045132,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGRyYWZ0',
+      'name' => 'updraft',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499031080,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGdyYWRl',
+      'name' => 'upgrade',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499031114,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'name' => 'uploads',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1497300882,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC93M3RjLWNvbmZpZw',
+      'name' => 'w3tc-config',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1497297313,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4949',
+      'hash' => 'l1_d3AtY29udGVudC93cC1jYWNoZS1jb25maWcucGhw',
+      'name' => 'wp-cache-config.php',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1497297416,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9jYWNoZQ',
+      'name' => 'cache',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+  ),
+) 
+[Sun, 02 Jul 2017 21:32:27 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1495133315,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+    'name' => 'themes',
+    'phash' => 'l1_d3AtY29udGVudA',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers/wp-content/themes',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1401983954,
+      'read' => 1,
+      'write' => 1,
+      'size' => '28',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvaW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'name' => 'whole',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499030125,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUtY2hpbGQ',
+      'name' => 'whole-child',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+  ),
+) 
+[Sun, 02 Jul 2017 21:32:30 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1495129784,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    'name' => 'whole',
+    'phash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers/wp-content/themes/whole',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1036',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvNDA0LnBocA',
+      'name' => '404.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '472',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvYXJjaGl2ZS1wb3J0Zm9saW8ucGhw',
+      'name' => 'archive-portfolio.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1667',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvYXJjaGl2ZS5waHA',
+      'name' => 'archive.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvYXNzZXRz',
+      'name' => 'assets',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1320',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvYXV0aG9yLnBocA',
+      'name' => 'author.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2909',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvY29tbWVudHMucGhw',
+      'name' => 'comments.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '439',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvZm9vdGVyLnBocA',
+      'name' => 'footer.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '29672',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvZnVuY3Rpb25zLnBocA',
+      'name' => 'functions.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129783,
+      'read' => 1,
+      'write' => 1,
+      'size' => '970',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvaGVhZGVyLnBocA',
+      'name' => 'header.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvaW5j',
+      'name' => 'inc',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1500',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvaW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1496157163,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvbGFuZ3VhZ2Vz',
+      'name' => 'languages',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvcGFnZS10ZW1wbGF0ZXM',
+      'name' => 'page-templates',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1432',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvcGFnZS5waHA',
+      'name' => 'page.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1439',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvcmVhZG1lLnR4dA',
+      'name' => 'readme.txt',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4379',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvcnRsLmNzcw',
+      'name' => 'rtl.css',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'image/png',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '431739',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2NyZWVuc2hvdC5wbmc',
+      'name' => 'screenshot.png',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'tmb' => 1,
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1083',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2VhcmNoLnBocA',
+      'name' => 'search.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '515',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2lkZWJhci5waHA',
+      'name' => 'sidebar.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '876',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXBvcnRmb2xpby5waHA',
+      'name' => 'single-portfolio.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1499027991,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+      'name' => 'single-templates',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1347',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLnBocA',
+      'name' => 'single.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '767',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc3R5bGUuY3Nz',
+      'name' => 'style.css',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '833',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvdGF4b25vbXktcG9ydGZvbGlvX2NhdGVnb3JpZXMucGhw',
+      'name' => 'taxonomy-portfolio_categories.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvdXNlcnByZXNz',
+      'name' => 'userpress',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    25 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvdmNfcGFyYW1z',
+      'name' => 'vc_params',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    26 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvdmNfdGVtcGxhdGVz',
+      'name' => 'vc_templates',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+    ),
+    27 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvd29vY29tbWVyY2U',
+      'name' => 'woocommerce',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    28 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2007',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvd3BtbC1jb25maWcueG1s',
+      'name' => 'wpml-config.xml',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    ),
+  ),
+) 
+[Sun, 02 Jul 2017 21:32:35 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1499027991,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+    'name' => 'single-templates',
+    'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGU',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers/wp-content/themes/whole/single-templates',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9jb250ZW50',
+      'name' => 'content',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+      'volumeid' => 'l1_',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '567',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9jb250ZW50LW5vbmUucGhw',
+      'name' => 'content-none.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '487',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9jb250ZW50LXBhZ2UucGhw',
+      'name' => 'content-page.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '556',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zZWFyY2gtbm90LWZvdW5kLnBocA',
+      'name' => 'search-not-found.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+      'name' => 'single',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+      'volumeid' => 'l1_',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUtcG9ydGZvbGlv',
+      'name' => 'single-portfolio',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+      'volumeid' => 'l1_',
+    ),
+  ),
+) 
+[Sun, 02 Jul 2017 21:32:48 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1495129784,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    'name' => 'single',
+    'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcw',
+    'volumeid' => 'l1_',
+  ),
+  'options' => 
+  array (
+    'path' => 'mindminers/wp-content/themes/whole/single-templates/single',
+    'url' => 'http://mindminers.raphaeltavares.com.br/',
+    'tmbUrl' => 'http://mindminers.raphaeltavares.com.br/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2032',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC1hdWRpby5waHA',
+      'name' => 'content-audio.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2034',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC1nYWxsZXJ5LnBocA',
+      'name' => 'content-gallery.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2032',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC1xdW90ZS5waHA',
+      'name' => 'content-quote.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2031',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC12aWRlby5waHA',
+      'name' => 'content-video.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1495129784,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2032',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC5waHA',
+      'name' => 'content.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+  ),
+) 
+[Sun, 02 Jul 2017 21:33:07 +0000] GET: array (
+  'content' => '<?php
+/**
+ * The default template for displaying content
+ *
+ * Used for both single and index/archive/search.
+ *
+ * @package WordPress
+ * @since 1.0.0
+ */
+global $opt_theme_options;
+?>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="entry-blog">
+		<header class="entry-header">
+			<?php whole_post_thumbnail(); ?>
+		</header>
+		<div class="entry-body">
+			<div class="entry-meta">
+				<?php whole_post_detail(); ?>
+			</div>
+			<div class="entry-content">
+				<?php the_content(); ?>
+
+				<?php
+				wp_link_pages( array(
+					\'before\'      => \'<div class="page-links"><span class="page-links-title">\' . esc_html__( \'Pages:\', \'whole\' ) . \'</span>\',
+					\'after\'       => \'</div>\',
+					\'link_before\' => \'<span>\',
+					\'link_after\'  => \'</span>\',
+				) );
+				?>
+				
+				<ul class="entry-social-shared clearfix">
+        			<li class="social-label"><?php esc_html_e(\'Share This Article : \', \'whole\'); ?></li>
+        			<?php whole_get_socials_share(); ?>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	
+	<?php if(isset($opt_theme_options[\'post_nav\']) && $opt_theme_options[\'post_nav\'] == \'show\') { ?>
+		<div class="post-previous-next box-blog">
+			<?php whole_post_nav(); ?>
+		</div>
+	<?php } ?>
+	
+	<?php if(isset($opt_theme_options[\'post_author\']) && $opt_theme_options[\'post_author\'] == \'show\') { ?>
+		<div class="entry-author box-blog">
+			<h3 class="wg-title">
+				<?php esc_html_e(\'About Author\', \'whole\'); ?>
+				<span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+			</h3> 
+			<div class="blog-admin-post clearfix">
+				<div class="admin-avt">
+						<?php echo get_avatar( get_the_author_meta( \'ID\' ), \'full\' ); ?>
+					</div>
+				<div class="admin-info">
+					<div class="admin-des">
+						<?php the_author_meta( \'description\' ); ?>
+						<?php whole_get_user_social(); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	<?php } ?>
+	
+	<div class="related-post box-blog">
+		<?php whole_related_post(); ?>
+	</div>
+
+</article><!-- #post-## -->
+',
+) 
+[Sun, 02 Jul 2017 21:33:42 +0000] PUT: array (
+  'changed' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1499031222,
+      'mime' => 'text/x-php',
+      'read' => 1,
+      'write' => 1,
+      'size' => '2063',
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGUvY29udGVudC5waHA',
+      'name' => 'content.php',
+      'phash' => 'l1_d3AtY29udGVudC90aGVtZXMvd2hvbGUvc2luZ2xlLXRlbXBsYXRlcy9zaW5nbGU',
+    ),
+  ),
+) 

@@ -1,0 +1,540 @@
+/*------------------------------------------------------------------
+[All Style Widgets]
+
+  1. Newletter
+  2. Search
+  3. Tags
+  4. Categories
+
+-------------------------------------------------------------------*/
+.wg-title, #reply-title, .comments-title {
+	font-size: 13px;
+	line-height: 30px;
+	color: $color_dark;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	position: relative;
+	padding-bottom: 2px;
+	font-weight: 700;
+}
+.wg-title, #reply-title, .comments-title, .h-line {
+	.line1, .line1:before, .line1:after, .line2, .line2:before, .line2:after, .line3, .line3:before, .line4, .line4:before, .line5, .line5:before, .line6, .line6:before  {
+		content: "";
+		height: 1px;
+		width: 9px;
+		position: absolute;
+		background-color: $primary_color;
+		display: inline-block;
+	}
+	.line1 {
+		left: 1px;
+		bottom: 1px;
+		&:before {
+			left: 10px;
+			bottom: 0px;
+		}
+		&:after {
+			left: 20px;
+			bottom: 0px;
+		}
+	}
+	.line2 {
+		left: 0px;
+		bottom: 0;
+		&:before {
+			left: 10px;
+			bottom: 0;
+		}
+		&:after {
+			left: 20px;
+			bottom: 0;
+		}
+	}
+	.line3 {
+		bottom: 1px;
+		left: 31px;
+		&:before {
+			bottom: -1px;
+			left: -1px;
+		}
+	}
+	.line4 {
+		bottom: 1px;
+		left: 41px;
+		&:before {
+			bottom: -1px;
+			left: -1px;
+		}
+	}
+	.line5 {
+		bottom: 1px;
+		left: 51px;
+		&:before {
+			bottom: -1px;
+			left: -1px;
+		}
+	}
+	.line6 {
+		bottom: 1px;
+		left: 61px;
+		&:before {
+			bottom: -1px;
+			left: -1px;
+		}
+	}
+	&.two-line {
+		.line1:after, .line2:after {
+			display: none;
+		}
+	}
+}
+#sidebar, .wpb_widgetised_column {
+	#widget-area > aside, .slidingbar-widget-col {
+		margin-bottom: 40px;
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border: none;
+		}
+	}
+	.widget_products {
+      ul li {
+        margin-bottom: 20px;
+        padding: 0;
+        &:last-child {
+          border: none;
+          margin-bottom: 0;
+        }
+        a {
+          font-size: 15px;
+          line-height: 24px;
+          color: $color_dark;
+          font-weight: 600;
+          &:hover {
+            color: $primary_color;
+          }
+          img {
+            float: left;
+            margin: 0 20px 0px 0;
+            max-width: 70px;
+            width: 100%;
+          }
+        }
+        .amount, ins .amount {
+           font-size: 14px;
+           color: #9b9b9b;
+        }
+        del .amount {
+          color: #9b9b9b;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+}
+
+/* 
+   [Start] 1. Newletter
+   +-----------------------------------+
+*/
+
+.site-footer .widget_newsletterwidget {
+	.newsletter-subscription {
+		margin: 0;
+	}
+	.tnp-widget {
+		margin-top: 12px;
+	}
+	form {
+		position: relative;
+		.tnp-field-email {
+			margin-top: 15px;
+			label {
+				display: none;
+			}
+			.tnp-email {
+				@include box-shadow(none);
+				border: 1px solid #222222 !important;
+				background-color: rgba(25,25,25,0.6) !important;
+				font-style: italic;
+				height: 42px !important;
+				font-size: 12px !important;
+				color: #474747;
+			}
+		}
+		.tnp-field-button {
+			position: absolute;
+		    right: 0;
+		    top: 0;
+		    margin-bottom: 0;
+		    &:before {
+		    	content: "\f178";
+		    	color: $primary_color;
+		    	display: block;
+			    font-family: FontAwesome;
+			    font-size: 11px;
+			    height: 42px;
+			    line-height: 42px;
+			    text-align: center;
+			    width: 42px;
+		    }
+		    &:after {
+		    	content: "";
+		    	height: 2px;
+		    	width: 0;
+		    	background-color: $primary_color;
+		    	display: block;
+		    	position: absolute;
+		    	right: 16px;
+		    	bottom: 0;
+		    	@include transition(all 300ms linear 0ms);
+		    }
+		    &:hover:after {
+		    	width: 11px;
+		    }
+			.tnp-submit {
+				height: 42px !important;
+				width: 42px !important;
+			    padding: 0 15px;
+			    background-color: transparent !important;
+			    border: none !important;
+			    font-weight: 700;
+			    color: #fff;
+			    position: initial !important;
+			    text-indent: -9999px;
+			    position: absolute !important;
+			    top: 0;
+			    right: 0;
+			}
+		}
+	}
+}
+.wpb_widgetised_column .widget_newsletterwidget {
+	text-align: center;
+	.newsletter-subscription {
+		margin: 0;
+	}
+	.tnp-widget {
+		margin-top: 12px;
+	}
+	form {
+		position: relative;
+		.tnp-field-email {
+			display: inline-block;
+		    margin: 0;
+		    vertical-align: middle;
+		    max-width: 370px;
+		    width: 100%;
+		    margin: 20px 13px 0 13px;
+			label {
+				display: none;
+			}
+			.tnp-email {
+				@include box-shadow(none);
+				border: 2px solid #eeeeee !important;
+				background-color: transparent !important;
+				height: 50px !important;
+				font-size: 12px !important;
+				color: #ffffff;
+				padding-left: 18px;
+			}
+		}
+		.tnp-field-button {
+			position: static;
+		    right: 0;
+		    top: 0;
+		    margin-bottom: 0;
+		    display: inline-block;
+    		vertical-align: middle;
+    		margin: 20px 13px 0 13px;
+			.tnp-submit {
+				height: 50px !important;
+			    padding: 0 50px;
+			    background-color: $primary_color !important;
+			    border: none !important;
+			    color: #fff;
+			    position: static !important;
+			    &:hover {
+			    	background-color: darken($primary_color, 0.12) !important;
+			    }
+			}
+		}
+	}
+}
+/* 
+   [Start] 2. Search
+   +-----------------------------------+
+*/
+#searchform {
+	position: relative;
+	.screen-reader-text {
+		display: none;
+	}
+	> div {
+		&:before {
+			color: $primary_color;
+		    content: "\f002";
+		    font-family: 'FontAwesome';
+		    font-size: 14px;
+		    position: absolute;
+		    right: 18px;
+		    top: 50%;
+    		@include transform(translate(0px, -50%));
+		    z-index: 1;
+		}
+	}
+	input[type="text"] {
+		background-color: #f9f9f9;
+	}
+	#searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: transparent;
+		opacity: 0;
+		z-index: 2;
+		padding: 0;
+		height: 35px;
+		width: 45px;
+	}
+}
+
+/* 
+   [Start] 3. Tags
+   +-----------------------------------+
+*/
+.tagcloud a {
+	font-size: 12px !important;
+	color: #9b9b9b;
+	line-height: 30px;
+	padding: 1px 14px 0;
+	background-color: #f9f9f9;
+	border: 1px solid #eeeeee !important;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	&:hover {
+		color: $primary_color;
+	}
+}
+
+/* 
+   [Start] 4. Categories
+   +-----------------------------------+
+*/
+.widget_categories, .widget_pages, .widget_meta, .widget_nav_menu, .widget_archive, .widget_recent_entries, .widget_recent_comments {
+	li {
+		line-height: 31px;
+		font-size: 13px;
+		color: $primary_color;
+		a {
+			color: #333333;
+			&:hover {
+				color: $primary_color;
+			}
+		}
+		&.page_item_has_children {
+			padding-left: 10px;
+		}
+	}
+}
+.widget_product_categories {
+	li {
+		line-height: 31px;
+		a {
+			color: #333333;
+			+ span {
+				color: $primary_color;
+				@include transition(all 300ms linear 0ms);
+			}
+			&:hover {
+				color: $primary_color;
+				+ span {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+}
+.widget_price_filter {
+	.wg-title {
+		margin-bottom: 32px;
+	}
+}
+
+.widget_cs_social_widget {
+	li {
+		display: inline-block;
+		a {
+			color: $color_dark;
+			font-size: 14px;
+			padding: 0 9px;
+			&:hover {
+				color: $primary_color;
+			}
+		}
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+}
+.cms-recent-post {
+	.item {
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.cms-recent-media {
+		width: 49px;
+		float: left;
+		a {
+			height: 49px;
+			width: 49px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			display: inline-block;
+			@include border-radius(2px);
+			overflow: hidden;
+		}
+	}
+	.cms-recent-details  {
+		padding-left: 65px;
+		.title {
+			font-size: 14px;
+			line-height: 22px;
+			margin-bottom: 5px;	
+			a {
+				color: #282828;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+		.date {
+			font-size: 13px;
+			line-height: 26px;
+			color: #616161;
+			font-family: 'Droidserif Italic';
+		}
+	}
+}
+.widget_recent_entries, .widget_recent_comments {
+	li {
+		border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    	padding: 5px 0;
+    	&:last-child {
+    		border-bottom: none;
+    	}
+	}
+}
+#sb_instagram {
+	.sbi_item {
+		img {
+			@include border-radius(1px !important);
+		}
+		.sbi_photo {
+			position: relative;
+			&:before {
+				content: "\f16d";
+				color: #fff;
+				font-size: 14px;
+				font-family: FontAwesome;
+				z-index: 2;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				line-height: 40px;
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				opacity: 0;
+				@include transition(all 300ms linear 0ms);
+			}
+			&:after {
+				position: absolute;
+				top: 5px;
+				left: 5px;
+				bottom: 5px;
+				right: 5px;
+				content: "";
+				background-color: $primary_color;
+				opacity: 0.95;
+				z-index: 1;
+				@include border-radius(1px);
+				opacity: 0;
+				@include transition(all 300ms linear 0ms);
+			}
+			&:hover {
+				&:before, &:after {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.widget_archive, .widget_categories, .widget_meta, .widget_nav_menu {
+	.screen-reader-text {
+		display: none;
+	}
+}
+.widget_rss {
+	li {
+		margin-bottom: 22px;
+		padding-bottom: 22px;
+		border-bottom: 1px solid rgba(0,0,0,0.08);
+		.rsswidget {
+			font-size: 16px;
+			display: block;
+			margin-bottom: 8px;
+		}
+		.rss-date {
+			margin-bottom: 3px;
+			display: block;
+			font-style: italic;
+		}
+	}
+}
+
+.widget_product_search .woocommerce-product-search {
+	position: relative;
+	.screen-reader-text {
+		display: none;
+	}
+	.search-field {
+		@include box-shadow(none);
+		color: $color_dark;
+		border: 1px solid #efefef;
+		height: 51px;
+		padding-right: 42px;
+	}
+	input[type="submit"] {
+		background-color: transparent;
+	    border: medium none;
+	    font-size: 0;
+	    max-width: 50px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    height: 50px;
+	    z-index: 3;
+	    &:hover {
+	    	background-color: transparent !important;
+	    }
+	}
+	&:before {
+		color: $primary_color;
+	    content: "\f002";
+	    font-family: FontAwesome;
+	    font-size: 14px;
+	    position: absolute;
+	    right: 21px;
+	    top: 13px;
+	    z-index: 2;
+	}
+}

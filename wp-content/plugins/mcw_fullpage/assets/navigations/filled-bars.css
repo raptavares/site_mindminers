@@ -1,0 +1,7 @@
+<?php if (!empty($color_main_enable)):?>
+<?php echo $selector;?> ul li a span{background:<?php if (!empty($main)): echo $main; else: ?>#fff<?php endif;?>;}
+<?php endif;?><?php if (!empty($color_active_enable)):?>
+<?php echo $selector;?> ul li a span::before{background:<?php if (!empty($active)): echo $active; else: ?>#ff5722<?php endif;?>;}
+<?php endif;?><?php if (!empty($color_hover_enable)):?>
+<?php echo $selector;?> ul li:hover a:not(.active) span{background:<?php if (!empty($hover)): echo $hover; else: ?>#fff<?php endif;?>;}
+<?php endif;?>

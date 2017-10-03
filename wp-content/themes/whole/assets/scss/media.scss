@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-pr {
+    font-family: 'Poppins Regular';
+}
+.cms-heading-wrapper .ft-pr {
+    font-family: 'Poppins Regular' !important;
+}
+
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-pl {
+    font-family: 'Poppins Light';
+}
+.cms-heading-wrapper .ft-pl {
+    font-family: 'Poppins Light' !important;
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-pm {
+    font-family: 'Poppins Medium';
+}
+.cms-heading-wrapper .ft-pm {
+    font-family: 'Poppins Medium' !important;
+}
+
+@font-face {
+    font-family: 'Poppins Semibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-psb {
+    font-family: 'Poppins Semibold';
+}
+.cms-heading-wrapper .ft-psb {
+    font-family: 'Poppins Semibold' !important;
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-pb {
+    font-family: 'Poppins Bold';
+}
+.cms-heading-wrapper .ft-pb {
+    font-family: 'Poppins Bold' !important;
+}
+
+@font-face {
+    font-family: 'Droidserif';
+    src: url('../fonts/droidserif-webfont.woff2') format('woff2'),
+         url('../fonts/droidserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-ds {
+    font-family: 'Droidserif';
+}
+.cms-heading-wrapper .ft-ds {
+    font-family: 'Droidserif' !important;
+}
+
+@font-face {
+    font-family: 'Droidserif Italic';
+    src: url('../fonts/droidserif-italic-webfont.woff2') format('woff2'),
+         url('../fonts/droidserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-dsi {
+    font-family: 'Droidserif Italic';
+}
+.cms-heading-wrapper .ft-dsi {
+    font-family: 'Droidserif Italic' !important;
+}
+
+@font-face {
+    font-family: 'Droidserif Bold';
+    src: url('../fonts/droidserif-bold-webfont.woff2') format('woff2'),
+         url('../fonts/droidserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-dsb {
+    font-family: 'Droidserif Bold';
+}
+.cms-heading-wrapper .ft-dsb {
+    font-family: 'Droidserif Bold' !important;
+}

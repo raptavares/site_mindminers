@@ -1,0 +1,373 @@
+/* ==========================================================================
+   [Start] 1. Reset HTML/CSS, Unitest, Body, @Extend
+========================================================================== */
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins Regular';
+  letter-spacing: 0;
+  color: #9b9b9b;
+  font-size: 14px;
+  line-height: 23px;
+  &.menu-popup-active {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.aligncenter {
+  margin: 5px auto;
+}
+.sticky {
+  opacity: 1;
+}
+.alignleft {
+  float: left;
+}
+img.alignleft {
+  margin: 5px 30px 15px 0;
+}
+.alignright {
+  float: right;
+}
+img.alignright {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.wp-caption { 
+  opacity: 1;
+  &.alignnone {
+    width: 100% !important;
+  }
+}
+.bg-primary {
+  background-color: $primary_color;
+}
+.row-box-shadow {
+  @include box-shadow(0 5px 25px rgba(0, 0, 0, 0.25));
+  position: relative;
+  z-index: 99;
+  bottom: -50px;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.media-left img {
+  max-width: inherit;
+}
+.wp-caption-text {
+  opacity: 1;
+}
+.gallery-caption {
+  opacity: 1;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.text-shadow-dark {
+  @include text-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+}
+.fs-i {
+  font-style: italic;
+}
+.block {
+  display: block;
+}
+a {
+  @include transition(all 300ms linear 0ms);
+  color: $link_color;
+  &:hover, &:focus {
+    color: $link_color_hover;
+  }
+}
+a, a:hover, a:focus, a:before, a:after {
+  outline: none;
+  text-decoration: none;
+}
+.title-link a {
+  text-decoration: underline !important;
+}
+.color-white {
+  color: #fff;
+}
+.text-italic {
+  font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  line-height: 1.1;
+  color: $color_dark;
+  font-weight: 600;
+  visibility: inherit !important;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 38px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+p {
+  margin: 0 0 15px;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+.hide-image img {
+  display: none;
+}
+.w40 {
+  float: left;
+  width: 40%;
+}
+.w50 {
+  float: left;
+  width: 50%;
+}
+.w60 {
+  float: left;
+  width: 60%;
+}
+.size_big {
+  font-size: 64px;
+}
+.size_small {
+  font-size: 26px;
+}
+body .wpb_content_element,
+body .wpb_button {
+  margin-bottom: 0
+}
+.entry-content > .vc_row-fluid {
+  position: relative;
+}
+.entry-content > .wpb_row .wpb_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.entry-content > .wpb_row .padding-30 .wpb_row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.vc_row-fluid .container .container,
+.vc_row-fluid .vc_row-fluid .container {
+  width: 100%;
+}
+.media-body {
+  width: inherit;
+}
+.thin {
+  font-weight: 300;
+}
+.well {
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.dark {
+  color: $color_dark;
+}
+.dark2 {
+  color: $color_dark2;
+}
+.color-primary {
+  color: $primary_color;
+}
+.color-secondary {
+  color: $secondary_color !important;
+}
+.br-2px {
+  @include border-radius(2px);
+}
+.br-3px {
+  @include border-radius(3px);
+}
+.br-4px {
+  @include border-radius(4px);
+}
+.br-5px {
+  @include border-radius(5px);
+}
+.z-index-1 {
+  z-index: 1;
+}
+.zmdi {
+  vertical-align: middle;
+}
+.lt0 {
+  letter-spacing: 0 !important;
+}
+.lt-20 {
+  letter-spacing: -0.020em !important;
+}
+.lt20 {
+  letter-spacing: 0.020em !important;
+}
+.lt35 {
+  letter-spacing: 0.035em !important;
+}
+.abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#bg-position-bottom {
+  background-position: center bottom;
+}
+.box-shadow.wpb_column > .vc_column-inner {
+  @include border-radius(7px);
+  @include box-shadow(0 1px 5px rgba(0, 0, 0, 0.25));
+}
+/*
+================> Unit Test
+*/
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+    @include border-radius(0);
+    th {
+      color: $color_dark;
+    }
+}
+caption, td {
+    font-weight: normal;
+    text-align: left;
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+  padding: 13px 8px;
+}
+th {
+  font-weight: 700;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 25px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $color_dark;
+}
+dl dd {
+    line-height: normal;
+    margin-bottom: 20px;
+    a {
+      color: $primary_color;
+      &:hover {
+        color: $color_main;
+      }
+    }
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    color: #fff;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+    background-color: $primary_color;
+}
+pre {
+    background: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#maps {
+  overflow: visible !important;
+}
+.woocommerce ins {
+  background-color: transparent;
+}
+.entry-content-inner {
+  ul {
+    padding: 0 0 0 35px;
+    list-style-type: square;
+    &.list-style-check {
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
+dl + h2 + ul {
+  list-style: none;
+  padding: 0 0 0 35px;
+  li {
+    position: relative;
+    padding-left: 15px;
+    &:before {
+      content: "\f111";
+      font-family: FontAwesome;
+      font-size: 7px;
+        left: 0;
+        position: absolute;
+        color: $primary_color;
+    }
+    ul {
+      padding-left: 35px;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 1. Reset HTML/CSS, Unitest, Body
+========================================================================== */

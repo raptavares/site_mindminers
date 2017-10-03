@@ -1,0 +1,8 @@
+.cms-dummy-process-bar{
+	height: 10px;
+	width: 0;
+	background-color: blue;
+}
+.cms-dummy-process{
+	background-color: #ccc;
+}

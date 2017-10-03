@@ -1,0 +1,12 @@
+# <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE text/javascript application/javascript
+# </IfModule>
+
+<IfModule mod_filter.c>
+	Header add Custom-Header "HasModExpire=yes"
+</IfModule>
+
+ExpiresActive On
+ExpiresDefault "access plus 4 weeks"
+# Header unset ETag
+# FileETag None

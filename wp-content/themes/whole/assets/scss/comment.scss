@@ -1,0 +1,128 @@
+#comments {
+	#respond {
+		background-color: #fff;
+		@include box-shadow(0 2px 3px rgba(40, 40, 40, 0.1));
+	    @include border-radius(3px);
+	    padding: 30px 40px 40px;
+	    margin-bottom: 30px;
+	}
+	.comment-list-wrap {
+		padding: 30px 40px 23px;
+	}
+	.comment-list {
+		list-style: none;
+		padding: 0;
+		.comment-body {
+			padding-left: 90px;
+			position: relative;
+			border-top: 2px solid #eee;
+			padding-top: 30px;
+			margin-top: 30px;
+			.comment-inner {
+				margin-bottom: 12px;
+			}
+			.comment-author {
+				.avatar {
+					max-width: 70px;
+					@include border-radius(100%);
+					width: 100%;
+					position: absolute;
+					top: 30px;
+					left: 0;
+					@include box-shadow(0 1px 3px rgba(0, 0, 0, 0.1));
+				}
+				cite {
+					font-size: 14px;
+					text-transform: uppercase;
+					color: $color_dark;
+					font-style: normal;
+					font-weight: 600;
+					a {
+						color: $color_dark;
+						&:hover {
+							color: $primary_color;
+						}
+					}
+				}
+				.says {
+					display: none;
+				}
+			}
+			.comment-meta {
+				line-height: 1;
+			    font-family: "Droidserif Italic";
+			    font-size: 13px;
+			    margin-top: 9px;
+			    margin-bottom: 18px;
+			    a {
+			    	color: #616161;
+			    	&:hover {
+			    		color: $primary_color;
+			    	}
+			    }
+			}
+			.comment-right {
+				padding-left: 90px;
+			}
+			.commetn-text {
+				padding-left: 90px;
+				padding-top: 4px;
+				p {
+					margin-bottom: 4px;
+				}
+			}
+			.reply a {
+				font-size: 13px;
+				color: $primary_color;
+				text-transform: uppercase;
+				font-weight: 700;
+				&:hover {
+					color: $color_dark;
+				}
+			}
+		}
+		> li {
+			&:first-child > .comment-body {
+				border: none;
+				padding-top: 0;
+				margin-top: 40px;
+				.avatar {
+					top: 0 !important;
+				}
+			}
+		}
+		.children {
+			list-style: none;
+			padding: 0 0 0 90px;
+		}
+		.pingback > .comment-body {
+			padding-left: 0;
+			a.url {
+				color: $color_dark;
+				&:hover {
+					color: $primary_color;
+				}
+			}
+		}
+	}
+	#commentform {
+		.form-submit {
+			margin-top: 40px;
+			margin-bottom: 0;
+			#submit {
+				display: block;
+				width: 100%;
+			}
+		}
+		.comment-form-comment {
+			margin-bottom: 19px;
+			margin-top: 26px;
+		}
+		.row {
+			margin: 0 -10px;
+			.col-xs-12 {
+				padding: 0 10px;
+			}
+		}
+	}
+}

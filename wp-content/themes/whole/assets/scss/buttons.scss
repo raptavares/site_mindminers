@@ -1,0 +1,212 @@
+/* ==========================================================================
+    Style Button
+========================================================================== */
+#wl-wrapper.woocommerce .button, .btn, button, .button, input[type="submit"] {
+    background-color: $color_dark;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px 45px 16px;
+    line-height: 1;
+    @include transition(all 300ms linear 0ms);
+    @include border-radius(0);
+    position: relative;
+    border: 2px solid $color_dark;
+}
+#wl-wrapper.woocommerce .button:hover, .btn:hover, button:hover, .button:hover, input[type="submit"]:hover,.btn:focus, button:focus, .button:focus, input[type="submit"]:focus {
+	outline: medium none;
+    text-decoration: none;
+    background-color: $primary_color;
+    border-color: $primary_color;
+    color: #fff;
+}
+.btn-icon {
+	font-weight: 600;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 30px;
+	line-height: 1;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 63px;
+	position: relative;
+	@include transition(all 300ms linear 0ms !important);
+	&:hover {
+		color: $primary_color;
+	}
+	i {
+		font-size: 48px;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		@include transform(translate(0,-50%));
+	}
+}
+/* Button Styles */
+.btn {
+	i {
+		padding-right: 9px;
+	}
+	span {
+		display: inline-block;
+		+ i {
+			padding-right: 0;
+			padding-left: 9px;
+		}
+	}
+	&.btn-radius {
+		@include border-radius(55px);
+	}
+	&.btn-primary {
+		background-color: $primary_color;
+		border-color: $primary_color;
+		&:hover {
+			background-color: $color_dark;
+			border-color: $color_dark;
+		}
+	}
+	&.btn-primary-alt, &.btn-primary-alt-radius {
+		background-color: #fff;
+		color: $primary_color;
+		border-color: $primary_color;
+		&:hover {
+			background-color: $color_dark;
+			border-color: $color_dark;
+			color: #fff;
+		}
+	}
+	&.btn-default-alt, &.btn-default-alt-radius {
+		background-color: #fff;
+		color: $color_dark;
+		&:hover {
+			background-color: $primary_color;
+			border-color: $primary_color;
+			color: #fff;
+		}
+	}
+	&.btn-primary-radius {
+		background-color: $primary_color;
+		border-color: $primary_color;
+		&:hover {
+			background-color: $color_dark;
+			border-color: $color_dark;
+		}
+	}
+	&.btn-default-radius, &.btn-default-alt-radius, &.btn-primary-radius, &.btn-primary-alt-radius {
+		@include border-radius(50px);
+	}
+	&.btn-primary-white {
+		background-color: transparent;
+		color: #fff;
+		border-color: #fff;
+		&:hover {
+			background-color: $primary_color;
+			color: #fff;
+			border-color: $primary_color;
+		}
+	}
+	&.btn-primary-white-alt {
+		background-color: #fff;
+		color: $color_dark;
+		border-color: #fff;
+		&:hover {
+			color: #fff;
+			background-color: $primary_color;
+			border-color: $primary_color;
+		}
+	}
+	&.btn-default-white {
+		background-color: transparent;
+		color: #fff;
+		border-color: #fff;
+		&:hover {
+			background-color: $color_dark;
+			color: #fff;
+			border-color: $color_dark;
+		}
+	}
+}
+/* Button Size */
+.btn {
+	&.btn-lg {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	&.btn-sm {
+		padding-left: 23px;
+		padding-right: 23px;
+	}
+	&.btn-tiny {
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+}
+
+@-webkit-keyframes btn-whole1 {
+	60% {
+		-webkit-transform: scale3d(0.8, 0.8, 1);
+		transform: scale3d(0.8, 0.8, 1);
+	}
+	85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes btn-whole1 {
+	60% {
+		-webkit-transform: scale3d(0.8, 0.8, 1);
+		transform: scale3d(0.8, 0.8, 1);
+	}
+	85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@-webkit-keyframes btn-whole2 {
+	to {
+		opacity: 0;
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes btn-whole2  {
+	to {
+		opacity: 0;
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+/* Button slider */
+.rev_slider_wrapper {
+	.btn {
+		@include transition(all 300ms linear 0ms !important);
+		&.btn-md {
+			padding: 11px 34px !important;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  	.rev_slider_wrapper {
+		.btn {
+			padding: 13px 30px !important;
+			line-height: 1 !important;
+			font-size: 11px !important;
+		}
+	}
+}
+/* ==========================================================================
+    End Style Button
+========================================================================== */

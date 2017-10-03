@@ -1,0 +1,17 @@
+{
+  "before": {
+    "file":"theme_header_fixed.min.js",
+    "params": {
+      "header": "",
+      "selector": ""
+    }
+  },
+  "afterRender": "mcw_header_padding();",
+  "afterResize": "mcw_header_padding();",
+  "css": {
+    "file":"theme_header_fixed.min.css",
+    "params": {
+      "header": ""
+    }
+  }
+}
